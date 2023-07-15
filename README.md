@@ -1,6 +1,6 @@
 ## "Co-evolution at protein-protein interfaces may guide inference of stoichiometry of oligomeric protein complexes by de novo structure prediction"
 ### Code and source data
-Kilian and Bischofs, 2023 - Max-Planck-Institute for Terrestrial Microbiology
+Kilian and Bischofs, 2023 - Max-Planck-Institute for Terrestrial Microbiology, Marburg, Germany and BioQuant Center, Heidelberg University, Heidelberg, Germany
 
 ### Requirements
 All code was written in Jupyter Notebooks using Python 3.9.13 as part of the [Anaconda](https://www.anaconda.com/) distribution.
@@ -11,7 +11,7 @@ To execute the code, the following packages were used:
 * [evcouplings V0.1.1](https://github.com/debbiemarkslab/EVcouplings) - functions for co-evolution and structure analysis
 
 ### Raw data generation
-Structure predictions were generated with [Alphafold V2.2.4](https://github.com/deepmind/alphafold) on the HPC "Raven" at the MPCDF, Garching. MSA assembly and co-evolution analysis was carried out by plmDCA with [evcouplings V0.1.1](https://github.com/debbiemarkslab/EVcouplings) as described in the manuscript.
+Structure predictions were generated with [Alphafold V2.2.4](https://github.com/deepmind/alphafold) on the HPC "Raven" at the MPCDF, Garching. MSA assembly and co-evolution analysis by plmDCA with [evcouplings V0.1.1](https://github.com/debbiemarkslab/EVcouplings) was carried out as described in the manuscript.
 
 ### Data structure
 Folders in this repository are sorted by target for structure and co-evolution analysis.
@@ -24,7 +24,8 @@ Each folder contains multiple subfolders:
   * intra: within a chain (tertiary structure)
   * inter: from a specific chain to any other chain (quaternary structure)
 * EVcouplings - raw output from plmDCA on input MSAs, list of all co-evolving residues with associated cn-score and probability (long-range contacts residues at least AAs apart only)
-* MSAs - input MSAs for plmDCA built by EVCouplings using jackhmmer
+* MSAs - input MSAs for plmDCA built by EVCouplings using jackhmmer.
+  * For MSA pairing, sequence annotation information was retrieved from UniRef100 on UniProt.org (https://www.uniprot.org/id-mapping). As some sequences were not part of UniRef100 anymore (e.g. preliminary WGS data moved to UniParc in a newer version), they were filtered from the MSAs. 
 * Notebooks - Jupyter Notebooks for co-evolution and structure analysis, and mapping of co-evolving residues on structures
   * metrics_plotting: plot AF2 confidence scores and scoring of co-evolving residue pairs
   * complex_contact_maps:  co-evolving residue mapping on each individual complex with specific stoichiometry (see below)
