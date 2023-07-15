@@ -1,6 +1,5 @@
-## "Co-evolution at protein-protein interfaces may guide inference of stoichiometry of oligomeric protein complexes by de novo structure prediction"
-### Code and source data
-Kilian and Bischofs, 2023 - Max-Planck-Institute for Terrestrial Microbiology, Marburg, Germany and BioQuant Center, Heidelberg University, Heidelberg, Germany
+## Code and source data for "Co-evolution at protein-protein interfaces may guide inference of stoichiometry of oligomeric protein complexes by de novo structure prediction"
+Kilian, Max and Bischofs, Ilka B., 2023 - Max-Planck-Institute for Terrestrial Microbiology, Marburg, Germany & BioQuant Center, Heidelberg University, Heidelberg, Germany
 
 ### Requirements
 All code was written in Jupyter Notebooks using Python 3.9.13 as part of the [Anaconda](https://www.anaconda.com/) distribution.
