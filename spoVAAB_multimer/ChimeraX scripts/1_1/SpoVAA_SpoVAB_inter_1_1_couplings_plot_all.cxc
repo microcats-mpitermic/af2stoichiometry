@@ -1,0 +1,104 @@
+# ChimeraX script: Plot couplings between SpoVAA-SpoVAB in 1:1 SpoVAA:SpoVAB complex
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAA-SpoVAB P>0.9 sorted by cn-score
+# UNSATISFIED - 2, P: 1.0, cn: 0.301, dist: 29.4727
+distance #1/A:102@CA #1/B:40@CA color grey radius .33 symbol false dashes 0
+show #1/A:102,102 atoms
+show #1/B:40,40 atoms
+
+# UNSATISFIED - 3, P: 1.0, cn: 0.2827, dist: 25.2951
+distance #1/A:111@CA #1/B:60@CA color grey radius .33 symbol false dashes 0
+show #1/A:111,111 atoms
+show #1/B:60,60 atoms
+
+# UNSATISFIED - 5, P: 1.0, cn: 0.234, dist: 20.9891
+distance #1/A:108@CA #1/B:83@CA color grey radius .33 symbol false dashes 0
+show #1/A:108,108 atoms
+show #1/B:83,83 atoms
+
+# UNSATISFIED - 11, P: 1.0, cn: 0.192, dist: 22.5044
+distance #1/A:113@CA #1/B:21@CA color grey radius .33 symbol false dashes 0
+show #1/A:113,113 atoms
+show #1/B:21,21 atoms
+
+# CONTACT - 12, P: 1.0, cn: 0.186, dist: 3.2532
+distance #1/A:155@CA #1/B:82@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:155,155 atoms
+show #1/B:82,82 atoms
+
+# UNSATISFIED - 16, P: 1.0, cn: 0.1645, dist: 22.4291
+distance #1/A:104@CA #1/B:10@CA color grey radius .33 symbol false dashes 0
+show #1/A:104,104 atoms
+show #1/B:10,10 atoms
+
+# UNSATISFIED - 17, P: 0.9997, cn: 0.1437, dist: 22.5622
+distance #1/A:108@CA #1/B:10@CA color grey radius .33 symbol false dashes 0
+show #1/A:108,108 atoms
+show #1/B:10,10 atoms
+
+# UNSATISFIED - 18, P: 0.9995, cn: 0.1402, dist: 12.1065
+distance #1/A:161@CA #1/B:26@CA color grey radius .33 symbol false dashes 0
+show #1/A:161,161 atoms
+show #1/B:26,26 atoms
+
+# UNSATISFIED - 21, P: 0.9993, cn: 0.1383, dist: 10.5797
+distance #1/A:112@CA #1/B:84@CA color grey radius .33 symbol false dashes 0
+show #1/A:112,112 atoms
+show #1/B:84,84 atoms
+
+# CONTACT - 23, P: 0.9988, cn: 0.1356, dist: 1.7748
+distance #1/A:150@CA #1/B:130@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:150,150 atoms
+show #1/B:130,130 atoms
+
+# UNSATISFIED - 27, P: 0.9959, cn: 0.1282, dist: 16.6891
+distance #1/A:108@CA #1/B:11@CA color grey radius .33 symbol false dashes 0
+show #1/A:108,108 atoms
+show #1/B:11,11 atoms
+
+# UNSATISFIED - 28, P: 0.9937, cn: 0.1256, dist: 22.6105
+distance #1/A:21@CA #1/B:109@CA color grey radius .33 symbol false dashes 0
+show #1/A:21,21 atoms
+show #1/B:109,109 atoms
+
+# UNSATISFIED - 29, P: 0.9932, cn: 0.1251, dist: 15.2611
+distance #1/A:108@CA #1/B:84@CA color grey radius .33 symbol false dashes 0
+show #1/A:108,108 atoms
+show #1/B:84,84 atoms
+
+# UNSATISFIED - 32, P: 0.9906, cn: 0.1231, dist: 21.0549
+distance #1/A:104@CA #1/B:83@CA color grey radius .33 symbol false dashes 0
+show #1/A:104,104 atoms
+show #1/B:83,83 atoms
+
+# UNSATISFIED - 33, P: 0.9906, cn: 0.1231, dist: 26.7026
+distance #1/A:134@CA #1/B:8@CA color grey radius .33 symbol false dashes 0
+show #1/A:134,134 atoms
+show #1/B:8,8 atoms
+
+# CONTACT_FAR - 34, P: 0.9892, cn: 0.1222, dist: 6.1774
+distance #1/A:153@CA #1/B:122@CA color #75C16E radius .33 symbol false dashes 0
+show #1/A:153,153 atoms
+show #1/B:122,122 atoms
+
+# CONTACT - 37, P: 0.9864, cn: 0.1207, dist: 2.0871
+distance #1/A:154@CA #1/B:127@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:154,154 atoms
+show #1/B:127,127 atoms
+
+# UNSATISFIED - 44, P: 0.9228, cn: 0.1089, dist: 31.2895
+distance #1/A:99@CA #1/B:42@CA color grey radius .33 symbol false dashes 0
+show #1/A:99,99 atoms
+show #1/B:42,42 atoms
+
+# CONTACT - 46, P: 0.9078, cn: 0.1075, dist: 2.5636
+distance #1/A:103@CA #1/B:121@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:103,103 atoms
+show #1/B:121,121 atoms
+hide H

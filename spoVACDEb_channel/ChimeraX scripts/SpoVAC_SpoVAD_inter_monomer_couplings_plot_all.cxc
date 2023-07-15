@@ -1,0 +1,77 @@
+# ChimeraX script: Plot couplings between SpoVAC-SpoVAD in monomeric SpoVAC-D-Eb channel
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAC-SpoVA P>0.9 sorted by cn-score
+# UNSATISFIED - 62, P: 1.0, cn: 0.2411, dist: 9.4247
+distance #1/A:7@CA #1/B:249@CA color grey radius .33 symbol false dashes 0
+show #1/A,B:7,249 atoms
+
+# CONTACT - 75, P: 1.0, cn: 0.2248, dist: 2.3304
+distance #1/A:83@CA #1/B:273@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:83,273 atoms
+
+# CONTACT_FAR - 77, P: 1.0, cn: 0.2236, dist: 5.7887
+distance #1/A:11@CA #1/B:242@CA color #75C16E radius .33 symbol false dashes 0
+show #1/A,B:11,242 atoms
+
+# CONTACT_FAR - 99, P: 1.0, cn: 0.1982, dist: 5.1923
+distance #1/A:83@CA #1/B:271@CA color #75C16E radius .33 symbol false dashes 0
+show #1/A,B:83,271 atoms
+
+# CONTACT - 101, P: 1.0, cn: 0.197, dist: 1.5985
+distance #1/A:15@CA #1/B:245@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:15,245 atoms
+
+# CONTACT_FAR - 112, P: 1.0, cn: 0.1847, dist: 7.4416
+distance #1/A:11@CA #1/B:245@CA color #75C16E radius .33 symbol false dashes 0
+show #1/A,B:11,245 atoms
+
+# CONTACT - 172, P: 1.0, cn: 0.1456, dist: 2.4862
+distance #1/A:16@CA #1/B:160@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:16,160 atoms
+
+# CONTACT - 203, P: 1.0, cn: 0.1344, dist: 1.9405
+distance #1/A:16@CA #1/B:200@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:16,200 atoms
+
+# CONTACT - 208, P: 0.9999, cn: 0.133, dist: 2.2779
+distance #1/A:79@CA #1/B:152@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:79,152 atoms
+
+# UNSATISFIED - 221, P: 0.9996, cn: 0.125, dist: 13.4165
+distance #1/A:122@CA #1/B:157@CA color grey radius .33 symbol false dashes 0
+show #1/A,B:122,157 atoms
+
+# CONTACT - 233, P: 0.9994, cn: 0.123, dist: 2.2139
+distance #1/A:15@CA #1/B:241@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:15,241 atoms
+
+# CONTACT - 250, P: 0.9985, cn: 0.1185, dist: 2.6686
+distance #1/A:17@CA #1/B:238@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:17,238 atoms
+
+# CONTACT - 294, P: 0.9847, cn: 0.1075, dist: 2.5031
+distance #1/A:9@CA #1/B:195@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:9,195 atoms
+
+# CONTACT - 301, P: 0.9757, cn: 0.1051, dist: 4.6948
+distance #1/A:19@CA #1/B:159@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A,B:19,159 atoms
+
+# UNSATISFIED - 302, P: 0.9748, cn: 0.105, dist: 38.4359
+distance #1/A:108@CA #1/B:213@CA color grey radius .33 symbol false dashes 0
+show #1/A,B:108,213 atoms
+
+# CONTACT_FAR - 335, P: 0.9174, cn: 0.0987, dist: 5.1582
+distance #1/A:82@CA #1/B:153@CA color #75C16E radius .33 symbol false dashes 0
+show #1/A,B:82,153 atoms
+
+# UNSATISFIED - 336, P: 0.9171, cn: 0.0986, dist: 30.6161
+distance #1/A:76@CA #1/B:96@CA color grey radius .33 symbol false dashes 0
+show #1/A,B:76,96 atoms
+hide H

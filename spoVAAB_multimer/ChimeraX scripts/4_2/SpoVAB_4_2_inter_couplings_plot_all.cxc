@@ -1,0 +1,30 @@
+# ChimeraX script: Plot multimeric couplings on SpoVAB in 4:2 SpoVAA-VAB complex
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Multimer couplings P>0.9 sorted by cn-score
+# UNSATISFIED_MULTIMER - 51, P: 0.9943, cn: 0.103, dist: 9.7708
+distance #1/E:30@CA #1/F:101@CA color grey radius .33 symbol false dashes 0
+distance #1/F:30@CA #1/E:101@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:30,101 atoms
+
+# CONTACT_FAR_MULTIMER - 114, P: 0.936, cn: 0.0832, dist: 7.0533
+distance #1/E:25@CA #1/F:95@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:25@CA #1/E:95@CA color tomato radius .33 symbol false dashes 0
+show #1/E,F:25,95 atoms
+
+# CONTACT_FAR_MULTIMER - 123, P: 0.9252, cn: 0.0817, dist: 5.8834
+distance #1/E:24@CA #1/F:101@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:24@CA #1/E:101@CA color tomato radius .33 symbol false dashes 0
+show #1/E,F:24,101 atoms
+
+# UNSATISFIED_MULTIMER - 134, P: 0.9104, cn: 0.0799, dist: 17.069
+distance #1/E:14@CA #1/F:110@CA color grey radius .33 symbol false dashes 0
+distance #1/F:14@CA #1/E:110@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:14,110 atoms
+
+hide H

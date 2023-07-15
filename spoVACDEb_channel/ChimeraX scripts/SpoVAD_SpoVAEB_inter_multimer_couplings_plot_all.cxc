@@ -1,0 +1,15 @@
+# ChimeraX script: Plot couplings between SpoVAD-SpoVAEB in multimericSpoVAC-D-Eb channel
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAD-SpoVAEB P>0.9 sorted by cn-score
+# CONTACT - 212, P: 0.9987, cn: 0.133, dist: 2.7161
+distance #1/C:153@CA #1/E:28@CA color #B1D77B radius .33 symbol false dashes 0
+distance #1/D:153@CA #1/F:28@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/C,D:153,153 atoms
+show #1/E,F:28,28 atoms
+hide H

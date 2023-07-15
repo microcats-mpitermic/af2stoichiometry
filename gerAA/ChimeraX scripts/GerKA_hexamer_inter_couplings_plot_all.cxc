@@ -1,0 +1,667 @@
+# ChimeraX script: Plot multimer couplings on GerAA hexamer
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Multimer couplings P>0.9 sorted by cn-score
+# CONTACT_MULTIMER - 8, P: 1.0, cn: 1.1203, dist: 1.8236
+distance #1/A:251@CA #1/F:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:251@CA #1/A:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:251@CA #1/B:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:251@CA #1/C:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:251@CA #1/D:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:251@CA #1/E:309@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:251,309 atoms
+
+# CONTACT_MULTIMER - 25, P: 1.0, cn: 0.878, dist: 2.0508
+distance #1/A:239@CA #1/F:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:239@CA #1/A:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:239@CA #1/B:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:239@CA #1/C:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:239@CA #1/D:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:239@CA #1/E:275@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:239,275 atoms
+
+# CONTACT_FAR_MULTIMER - 30, P: 1.0, cn: 0.8019, dist: 5.1626
+distance #1/A:130@CA #1/B:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:130@CA #1/C:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:130@CA #1/D:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:130@CA #1/E:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:130@CA #1/F:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:130@CA #1/A:208@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:130,208 atoms
+
+# CONTACT_MULTIMER - 44, P: 1.0, cn: 0.7397, dist: 1.9565
+distance #1/A:193@CA #1/B:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:193@CA #1/C:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:193@CA #1/D:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:193@CA #1/E:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:193@CA #1/F:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:193@CA #1/A:206@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:193,206 atoms
+
+# CONTACT_FAR_MULTIMER - 68, P: 1.0, cn: 0.6539, dist: 7.3614
+distance #1/A:206@CA #1/F:218@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:218@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:218@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:218@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:218@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:218@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,218 atoms
+
+# CONTACT_MULTIMER - 73, P: 1.0, cn: 0.6232, dist: 2.1793
+distance #1/A:315@CA #1/B:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:315@CA #1/C:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:315@CA #1/D:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:315@CA #1/E:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:315@CA #1/F:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:315@CA #1/A:440@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:315,440 atoms
+
+# CONTACT_FAR_MULTIMER - 89, P: 1.0, cn: 0.6227, dist: 5.4628
+distance #1/A:206@CA #1/F:513@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:513@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:513@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:513@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:513@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:513@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,513 atoms
+
+# CONTACT_MULTIMER - 97, P: 0.9999, cn: 0.5555, dist: 1.9803
+distance #1/A:164@CA #1/F:173@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:164@CA #1/A:173@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:164@CA #1/B:173@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:164@CA #1/C:173@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:164@CA #1/D:173@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:164@CA #1/E:173@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:164,173 atoms
+
+# CONTACT_MULTIMER - 95, P: 0.9999, cn: 0.5509, dist: 2.1036
+distance #1/A:323@CA #1/B:377@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:323@CA #1/C:377@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:323@CA #1/D:377@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:323@CA #1/E:377@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:323@CA #1/F:377@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:323@CA #1/A:377@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:323,377 atoms
+
+# CONTACT_MULTIMER - 106, P: 0.9999, cn: 0.5317, dist: 2.6931
+distance #1/A:157@CA #1/B:179@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:157@CA #1/C:179@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:157@CA #1/D:179@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:157@CA #1/E:179@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:157@CA #1/F:179@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:157@CA #1/A:179@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:157,179 atoms
+
+# CONTACT_MULTIMER - 107, P: 0.9999, cn: 0.5274, dist: 2.1277
+distance #1/A:130@CA #1/B:202@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:130@CA #1/C:202@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:130@CA #1/D:202@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:130@CA #1/E:202@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:130@CA #1/F:202@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:130@CA #1/A:202@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:130,202 atoms
+
+# CONTACT_MULTIMER - 115, P: 0.9999, cn: 0.5106, dist: 4.3699
+distance #1/A:157@CA #1/B:182@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:157@CA #1/C:182@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:157@CA #1/D:182@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:157@CA #1/E:182@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:157@CA #1/F:182@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:157@CA #1/A:182@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:157,182 atoms
+
+# CONTACT_MULTIMER - 117, P: 0.9998, cn: 0.4956, dist: 2.1761
+distance #1/A:206@CA #1/F:219@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:219@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:219@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:219@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:219@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:219@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,219 atoms
+
+# CONTACT_MULTIMER - 124, P: 0.9997, cn: 0.4804, dist: 4.3367
+distance #1/A:195@CA #1/B:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:195@CA #1/C:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:195@CA #1/D:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:195@CA #1/E:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:195@CA #1/F:206@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:195@CA #1/A:206@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:195,206 atoms
+
+# CONTACT_MULTIMER - 148, P: 0.9993, cn: 0.4374, dist: 3.4584
+distance #1/A:167@CA #1/B:387@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:167@CA #1/C:387@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:167@CA #1/D:387@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:167@CA #1/E:387@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:167@CA #1/F:387@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:167@CA #1/A:387@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:167,387 atoms
+
+# CONTACT_MULTIMER - 157, P: 0.999, cn: 0.4213, dist: 2.3775
+distance #1/A:60@CA #1/F:119@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:60@CA #1/A:119@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:60@CA #1/B:119@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:60@CA #1/C:119@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:60@CA #1/D:119@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:60@CA #1/E:119@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:60,119 atoms
+
+# CONTACT_MULTIMER - 164, P: 0.9987, cn: 0.4117, dist: 1.6851
+distance #1/A:192@CA #1/B:284@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:192@CA #1/C:284@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:192@CA #1/D:284@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:192@CA #1/E:284@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:192@CA #1/F:284@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:192@CA #1/A:284@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:192,284 atoms
+
+# CONTACT_MULTIMER - 166, P: 0.9986, cn: 0.4031, dist: 2.3836
+distance #1/A:134@CA #1/B:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:134@CA #1/C:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:134@CA #1/D:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:134@CA #1/E:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:134@CA #1/F:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:134@CA #1/A:210@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:134,210 atoms
+
+# CONTACT_MULTIMER - 180, P: 0.998, cn: 0.3861, dist: 2.3121
+distance #1/A:207@CA #1/F:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:207@CA #1/A:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:207@CA #1/B:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:207@CA #1/C:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:207@CA #1/D:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:207@CA #1/E:275@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:207,275 atoms
+
+# CONTACT_MULTIMER - 267, P: 0.9887, cn: 0.3691, dist: 2.0542
+distance #1/A:238@CA #1/F:516@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:238@CA #1/A:516@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:238@CA #1/B:516@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:238@CA #1/C:516@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:238@CA #1/D:516@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:238@CA #1/E:516@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:238,516 atoms
+
+# CONTACT_MULTIMER - 202, P: 0.9968, cn: 0.3647, dist: 3.0536
+distance #1/A:322@CA #1/B:373@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:322@CA #1/C:373@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:322@CA #1/D:373@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:322@CA #1/E:373@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:322@CA #1/F:373@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:322@CA #1/A:373@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:322,373 atoms
+
+# UNSATISFIED_MULTIMER - 215, P: 0.996, cn: 0.3564, dist: 8.5863
+distance #1/A:155@CA #1/B:179@CA color grey radius .33 symbol false dashes 0
+distance #1/B:155@CA #1/C:179@CA color grey radius .33 symbol false dashes 0
+distance #1/C:155@CA #1/D:179@CA color grey radius .33 symbol false dashes 0
+distance #1/D:155@CA #1/E:179@CA color grey radius .33 symbol false dashes 0
+distance #1/E:155@CA #1/F:179@CA color grey radius .33 symbol false dashes 0
+distance #1/F:155@CA #1/A:179@CA color grey radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:155,179 atoms
+
+# CONTACT_MULTIMER - 209, P: 0.9963, cn: 0.3562, dist: 1.7675
+distance #1/A:170@CA #1/B:247@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:170@CA #1/C:247@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:170@CA #1/D:247@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:170@CA #1/E:247@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:170@CA #1/F:247@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:170@CA #1/A:247@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:170,247 atoms
+
+# CONTACT_MULTIMER - 217, P: 0.9958, cn: 0.3555, dist: 2.2266
+distance #1/A:206@CA #1/F:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:216@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,216 atoms
+
+# CONTACT_MULTIMER - 234, P: 0.9941, cn: 0.3462, dist: 1.7211
+distance #1/A:63@CA #1/F:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:63@CA #1/A:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:63@CA #1/B:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:63@CA #1/C:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:63@CA #1/D:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:63@CA #1/E:111@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:63,111 atoms
+
+# CONTACT_MULTIMER - 242, P: 0.9928, cn: 0.344, dist: 1.7994
+distance #1/A:248@CA #1/F:496@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:248@CA #1/A:496@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:248@CA #1/B:496@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:248@CA #1/C:496@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:248@CA #1/D:496@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:248@CA #1/E:496@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:248,496 atoms
+
+# CONTACT_MULTIMER - 218, P: 0.9956, cn: 0.3414, dist: 1.8546
+distance #1/A:254@CA #1/F:500@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:254@CA #1/A:500@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:254@CA #1/B:500@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:254@CA #1/C:500@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:254@CA #1/D:500@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:254@CA #1/E:500@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:254,500 atoms
+
+# CONTACT_MULTIMER - 232, P: 0.9942, cn: 0.337, dist: 2.5196
+distance #1/A:192@CA #1/B:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:192@CA #1/C:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:192@CA #1/D:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:192@CA #1/E:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:192@CA #1/F:210@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:192@CA #1/A:210@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:192,210 atoms
+
+# CONTACT_FAR_MULTIMER - 253, P: 0.9911, cn: 0.3232, dist: 5.2769
+distance #1/A:157@CA #1/B:177@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:157@CA #1/C:177@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:157@CA #1/D:177@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:157@CA #1/E:177@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:157@CA #1/F:177@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:157@CA #1/A:177@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:157,177 atoms
+
+# CONTACT_MULTIMER - 250, P: 0.9915, cn: 0.3184, dist: 2.2929
+distance #1/A:260@CA #1/F:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:260@CA #1/A:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:260@CA #1/B:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:260@CA #1/C:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:260@CA #1/D:309@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:260@CA #1/E:309@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:260,309 atoms
+
+# CONTACT_FAR_MULTIMER - 256, P: 0.9907, cn: 0.3144, dist: 5.3181
+distance #1/A:308@CA #1/B:436@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:308@CA #1/C:436@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:308@CA #1/D:436@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:308@CA #1/E:436@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:308@CA #1/F:436@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:308@CA #1/A:436@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:308,436 atoms
+
+# CONTACT_FAR_MULTIMER - 262, P: 0.99, cn: 0.3134, dist: 5.2251
+distance #1/A:174@CA #1/B:285@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:174@CA #1/C:285@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:174@CA #1/D:285@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:174@CA #1/E:285@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:174@CA #1/F:285@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:174@CA #1/A:285@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:174,285 atoms
+
+# CONTACT_MULTIMER - 268, P: 0.9886, cn: 0.3069, dist: 2.9521
+distance #1/A:374@CA #1/F:421@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:374@CA #1/A:421@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:374@CA #1/B:421@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:374@CA #1/C:421@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:374@CA #1/D:421@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:374@CA #1/E:421@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:374,421 atoms
+
+# CONTACT_MULTIMER - 299, P: 0.9823, cn: 0.3058, dist: 1.9935
+distance #1/A:248@CA #1/F:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:248@CA #1/A:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:248@CA #1/B:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:248@CA #1/C:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:248@CA #1/D:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:248@CA #1/E:499@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:248,499 atoms
+
+# CONTACT_MULTIMER - 270, P: 0.988, cn: 0.3027, dist: 2.451
+distance #1/A:242@CA #1/F:307@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:242@CA #1/A:307@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:242@CA #1/B:307@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:242@CA #1/C:307@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:242@CA #1/D:307@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:242@CA #1/E:307@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:242,307 atoms
+
+# CONTACT_MULTIMER - 296, P: 0.9829, cn: 0.2932, dist: 2.253
+distance #1/A:257@CA #1/F:311@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:257@CA #1/A:311@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:257@CA #1/B:311@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:257@CA #1/C:311@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:257@CA #1/D:311@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:257@CA #1/E:311@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:257,311 atoms
+
+# CONTACT_FAR_MULTIMER - 290, P: 0.9844, cn: 0.2921, dist: 5.0919
+distance #1/A:406@CA #1/F:417@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:406@CA #1/A:417@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:406@CA #1/B:417@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:406@CA #1/C:417@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:406@CA #1/D:417@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:406@CA #1/E:417@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:406,417 atoms
+
+# UNSATISFIED_MULTIMER - 297, P: 0.9829, cn: 0.2862, dist: 9.7622
+distance #1/A:158@CA #1/B:178@CA color grey radius .33 symbol false dashes 0
+distance #1/B:158@CA #1/C:178@CA color grey radius .33 symbol false dashes 0
+distance #1/C:158@CA #1/D:178@CA color grey radius .33 symbol false dashes 0
+distance #1/D:158@CA #1/E:178@CA color grey radius .33 symbol false dashes 0
+distance #1/E:158@CA #1/F:178@CA color grey radius .33 symbol false dashes 0
+distance #1/F:158@CA #1/A:178@CA color grey radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:158,178 atoms
+
+# CONTACT_MULTIMER - 323, P: 0.9744, cn: 0.2836, dist: 2.4604
+distance #1/A:245@CA #1/F:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:245@CA #1/A:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:245@CA #1/B:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:245@CA #1/C:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:245@CA #1/D:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:245@CA #1/E:499@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:245,499 atoms
+
+# CONTACT_MULTIMER - 304, P: 0.9797, cn: 0.2825, dist: 2.7728
+distance #1/A:170@CA #1/B:263@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:170@CA #1/C:263@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:170@CA #1/D:263@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:170@CA #1/E:263@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:170@CA #1/F:263@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:170@CA #1/A:263@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:170,263 atoms
+
+# CONTACT_FAR_MULTIMER - 309, P: 0.9784, cn: 0.2813, dist: 7.5002
+distance #1/A:315@CA #1/B:376@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:315@CA #1/C:376@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:315@CA #1/D:376@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:315@CA #1/E:376@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:315@CA #1/F:376@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:315@CA #1/A:376@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:315,376 atoms
+
+# CONTACT_MULTIMER - 306, P: 0.9796, cn: 0.2808, dist: 2.8611
+distance #1/A:63@CA #1/F:112@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:63@CA #1/A:112@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:63@CA #1/B:112@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:63@CA #1/C:112@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:63@CA #1/D:112@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:63@CA #1/E:112@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:63,112 atoms
+
+# CONTACT_MULTIMER - 315, P: 0.9775, cn: 0.2765, dist: 3.1798
+distance #1/A:173@CA #1/B:288@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:173@CA #1/C:288@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:173@CA #1/D:288@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:173@CA #1/E:288@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:173@CA #1/F:288@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:173@CA #1/A:288@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:173,288 atoms
+
+# CONTACT_MULTIMER - 318, P: 0.9762, cn: 0.2714, dist: 4.7017
+distance #1/A:255@CA #1/F:501@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:255@CA #1/A:501@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:255@CA #1/B:501@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:255@CA #1/C:501@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:255@CA #1/D:501@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:255@CA #1/E:501@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:255,501 atoms
+
+# CONTACT_MULTIMER - 340, P: 0.9705, cn: 0.2693, dist: 4.0934
+distance #1/A:61@CA #1/F:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:61@CA #1/A:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:61@CA #1/B:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:61@CA #1/C:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:61@CA #1/D:111@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:61@CA #1/E:111@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:61,111 atoms
+
+# CONTACT_MULTIMER - 332, P: 0.9726, cn: 0.2682, dist: 3.8932
+distance #1/A:219@CA #1/B:238@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:219@CA #1/C:238@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:219@CA #1/D:238@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:219@CA #1/E:238@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:219@CA #1/F:238@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:219@CA #1/A:238@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:219,238 atoms
+
+# CONTACT_MULTIMER - 391, P: 0.952, cn: 0.2678, dist: 1.7873
+distance #1/A:238@CA #1/F:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:238@CA #1/A:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:238@CA #1/B:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:238@CA #1/C:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:238@CA #1/D:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:238@CA #1/E:505@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:238,505 atoms
+
+# CONTACT_MULTIMER - 336, P: 0.9717, cn: 0.2629, dist: 3.0779
+distance #1/A:377@CA #1/F:428@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:377@CA #1/A:428@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:377@CA #1/B:428@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:377@CA #1/C:428@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:377@CA #1/D:428@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:377@CA #1/E:428@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:377,428 atoms
+
+# CONTACT_FAR_MULTIMER - 346, P: 0.9695, cn: 0.2623, dist: 5.8693
+distance #1/A:179@CA #1/F:189@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:179@CA #1/A:189@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:179@CA #1/B:189@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:179@CA #1/C:189@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:179@CA #1/D:189@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:179@CA #1/E:189@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:179,189 atoms
+
+# CONTACT_MULTIMER - 433, P: 0.935, cn: 0.2599, dist: 3.3895
+distance #1/A:206@CA #1/F:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:505@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:505@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,505 atoms
+
+# CONTACT_MULTIMER - 348, P: 0.9684, cn: 0.2589, dist: 2.0933
+distance #1/A:312@CA #1/B:436@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:312@CA #1/C:436@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:312@CA #1/D:436@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:312@CA #1/E:436@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:312@CA #1/F:436@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:312@CA #1/A:436@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:312,436 atoms
+
+# CONTACT_MULTIMER - 350, P: 0.968, cn: 0.2588, dist: 2.8627
+distance #1/A:190@CA #1/B:285@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:190@CA #1/C:285@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:190@CA #1/D:285@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:190@CA #1/E:285@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:190@CA #1/F:285@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:190@CA #1/A:285@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:190,285 atoms
+
+# CONTACT_FAR_MULTIMER - 357, P: 0.9654, cn: 0.2558, dist: 7.466
+distance #1/A:126@CA #1/B:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:126@CA #1/C:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:126@CA #1/D:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:126@CA #1/E:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:126@CA #1/F:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:126@CA #1/A:208@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:126,208 atoms
+
+# CONTACT_MULTIMER - 358, P: 0.9639, cn: 0.2524, dist: 2.3418
+distance #1/A:241@CA #1/F:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:241@CA #1/A:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:241@CA #1/B:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:241@CA #1/C:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:241@CA #1/D:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:241@CA #1/E:275@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:241,275 atoms
+
+# CONTACT_FAR_MULTIMER - 383, P: 0.9545, cn: 0.2518, dist: 5.7496
+distance #1/A:308@CA #1/B:433@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:308@CA #1/C:433@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:308@CA #1/D:433@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:308@CA #1/E:433@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:308@CA #1/F:433@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:308@CA #1/A:433@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:308,433 atoms
+
+# CONTACT_MULTIMER - 370, P: 0.9591, cn: 0.2503, dist: 3.7329
+distance #1/A:311@CA #1/B:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:311@CA #1/C:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:311@CA #1/D:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:311@CA #1/E:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:311@CA #1/F:440@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:311@CA #1/A:440@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:311,440 atoms
+
+# CONTACT_MULTIMER - 380, P: 0.9549, cn: 0.2415, dist: 3.6375
+distance #1/A:58@CA #1/F:118@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:58@CA #1/A:118@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:58@CA #1/B:118@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:58@CA #1/C:118@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:58@CA #1/D:118@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:58@CA #1/E:118@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:58,118 atoms
+
+# CONTACT_FAR_MULTIMER - 390, P: 0.9522, cn: 0.2402, dist: 6.763
+distance #1/A:167@CA #1/B:388@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:167@CA #1/C:388@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:167@CA #1/D:388@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:167@CA #1/E:388@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:167@CA #1/F:388@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:167@CA #1/A:388@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:167,388 atoms
+
+# CONTACT_FAR_MULTIMER - 387, P: 0.9534, cn: 0.2397, dist: 7.0204
+distance #1/A:153@CA #1/B:210@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:153@CA #1/C:210@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:153@CA #1/D:210@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:153@CA #1/E:210@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:153@CA #1/F:210@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:153@CA #1/A:210@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:153,210 atoms
+
+# CONTACT_MULTIMER - 389, P: 0.9527, cn: 0.239, dist: 3.5866
+distance #1/A:407@CA #1/F:413@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:407@CA #1/A:413@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:407@CA #1/B:413@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:407@CA #1/C:413@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:407@CA #1/D:413@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:407@CA #1/E:413@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:407,413 atoms
+
+# CONTACT_MULTIMER - 434, P: 0.9343, cn: 0.2388, dist: 3.4014
+distance #1/A:237@CA #1/F:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:237@CA #1/A:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:237@CA #1/B:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:237@CA #1/C:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:237@CA #1/D:499@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:237@CA #1/E:499@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:237,499 atoms
+
+# CONTACT_MULTIMER - 388, P: 0.953, cn: 0.2384, dist: 3.5506
+distance #1/A:95@CA #1/F:115@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:95@CA #1/A:115@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:95@CA #1/B:115@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:95@CA #1/C:115@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:95@CA #1/D:115@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:95@CA #1/E:115@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:95,115 atoms
+
+# CONTACT_MULTIMER - 394, P: 0.9505, cn: 0.2375, dist: 2.4269
+distance #1/A:170@CA #1/B:243@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:170@CA #1/C:243@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:170@CA #1/D:243@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:170@CA #1/E:243@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:170@CA #1/F:243@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:170@CA #1/A:243@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:170,243 atoms
+
+# CONTACT_MULTIMER - 401, P: 0.9486, cn: 0.2369, dist: 4.3027
+distance #1/A:190@CA #1/B:209@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:190@CA #1/C:209@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:190@CA #1/D:209@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:190@CA #1/E:209@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:190@CA #1/F:209@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:190@CA #1/A:209@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:190,209 atoms
+
+# CONTACT_MULTIMER - 441, P: 0.9285, cn: 0.2172, dist: 3.9835
+distance #1/A:245@CA #1/F:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:245@CA #1/A:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:245@CA #1/B:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:245@CA #1/C:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:245@CA #1/D:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:245@CA #1/E:272@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:245,272 atoms
+
+# CONTACT_MULTIMER - 452, P: 0.9216, cn: 0.2155, dist: 2.5018
+distance #1/A:206@CA #1/F:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:206@CA #1/A:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:206@CA #1/B:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:206@CA #1/C:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:206@CA #1/D:275@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:206@CA #1/E:275@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:206,275 atoms
+
+# CONTACT_MULTIMER - 460, P: 0.9148, cn: 0.2108, dist: 2.3702
+distance #1/A:241@CA #1/F:271@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:241@CA #1/A:271@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:241@CA #1/B:271@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:241@CA #1/C:271@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:241@CA #1/D:271@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:241@CA #1/E:271@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:241,271 atoms
+
+# CONTACT_FAR_MULTIMER - 463, P: 0.9123, cn: 0.2106, dist: 5.3341
+distance #1/A:134@CA #1/B:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:134@CA #1/C:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:134@CA #1/D:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:134@CA #1/E:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:134@CA #1/F:208@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:134@CA #1/A:208@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:134,208 atoms
+
+# UNSATISFIED_MULTIMER - 462, P: 0.9137, cn: 0.2087, dist: 8.0193
+distance #1/A:83@CA #1/F:118@CA color grey radius .33 symbol false dashes 0
+distance #1/B:83@CA #1/A:118@CA color grey radius .33 symbol false dashes 0
+distance #1/C:83@CA #1/B:118@CA color grey radius .33 symbol false dashes 0
+distance #1/D:83@CA #1/C:118@CA color grey radius .33 symbol false dashes 0
+distance #1/E:83@CA #1/D:118@CA color grey radius .33 symbol false dashes 0
+distance #1/F:83@CA #1/E:118@CA color grey radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:83,118 atoms
+
+# CONTACT_MULTIMER - 466, P: 0.9092, cn: 0.2053, dist: 2.0709
+distance #1/A:241@CA #1/F:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:241@CA #1/A:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:241@CA #1/B:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:241@CA #1/C:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:241@CA #1/D:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:241@CA #1/E:272@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:241,272 atoms
+
+# CONTACT_FAR_MULTIMER - 479, P: 0.9017, cn: 0.2021, dist: 7.4975
+distance #1/A:78@CA #1/F:118@CA color tomato radius .33 symbol false dashes 0
+distance #1/B:78@CA #1/A:118@CA color tomato radius .33 symbol false dashes 0
+distance #1/C:78@CA #1/B:118@CA color tomato radius .33 symbol false dashes 0
+distance #1/D:78@CA #1/C:118@CA color tomato radius .33 symbol false dashes 0
+distance #1/E:78@CA #1/D:118@CA color tomato radius .33 symbol false dashes 0
+distance #1/F:78@CA #1/E:118@CA color tomato radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:78,118 atoms
+
+# CONTACT_MULTIMER - 476, P: 0.9032, cn: 0.2021, dist: 2.5914
+distance #1/A:193@CA #1/B:208@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:193@CA #1/C:208@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/C:193@CA #1/D:208@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:193@CA #1/E:208@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/E:193@CA #1/F:208@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/F:193@CA #1/A:208@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:193,208 atoms
+
+# UNSATISFIED_MULTIMER - 477, P: 0.9021, cn: 0.2013, dist: 8.9263
+distance #1/A:315@CA #1/B:373@CA color grey radius .33 symbol false dashes 0
+distance #1/B:315@CA #1/C:373@CA color grey radius .33 symbol false dashes 0
+distance #1/C:315@CA #1/D:373@CA color grey radius .33 symbol false dashes 0
+distance #1/D:315@CA #1/E:373@CA color grey radius .33 symbol false dashes 0
+distance #1/E:315@CA #1/F:373@CA color grey radius .33 symbol false dashes 0
+distance #1/F:315@CA #1/A:373@CA color grey radius .33 symbol false dashes 0
+show #1/A,B,C,D,E,F:315,373 atoms
+
+hide H

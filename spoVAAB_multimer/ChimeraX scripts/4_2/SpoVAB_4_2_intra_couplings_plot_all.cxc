@@ -1,0 +1,105 @@
+# ChimeraX script: Plot monomer couplings on SpoVAB in 4:2 SpoVAA-VAB complex
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# CONTACT_MONOMER - 1, P: 1.0, cn: 0.3194, dist: 1.7194
+distance #1/E:42@CA #1/E:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:42@CA #1/F:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:42,49 atoms
+
+# CONTACT_MONOMER - 13, P: 1.0, cn: 0.1849, dist: 3.3598
+distance #1/E:40@CA #1/E:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:40@CA #1/F:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:40,49 atoms
+
+# CONTACT_MONOMER - 31, P: 0.9997, cn: 0.1232, dist: 2.5039
+distance #1/E:23@CA #1/E:57@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:23@CA #1/F:57@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:23,57 atoms
+
+# CONTACT_MONOMER - 36, P: 0.9996, cn: 0.1208, dist: 2.7966
+distance #1/E:102@CA #1/E:119@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:102@CA #1/F:119@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:102,119 atoms
+
+# CONTACT_MONOMER - 40, P: 0.999, cn: 0.1146, dist: 2.3752
+distance #1/E:33@CA #1/E:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:33@CA #1/F:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:33,53 atoms
+
+# UNSATISFIED_MONOMER - 52, P: 0.9931, cn: 0.1015, dist: 8.1962
+distance #1/E:21@CA #1/E:57@CA color grey radius .33 symbol false dashes 0
+distance #1/F:21@CA #1/F:57@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:21,57 atoms
+
+# UNSATISFIED_MONOMER - 56, P: 0.9918, cn: 0.1003, dist: 22.8868
+distance #1/E:31@CA #1/E:64@CA color grey radius .33 symbol false dashes 0
+distance #1/F:31@CA #1/F:64@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:31,64 atoms
+
+# UNSATISFIED_MONOMER - 66, P: 0.9825, cn: 0.0944, dist: 32.7024
+distance #1/E:71@CA #1/E:124@CA color grey radius .33 symbol false dashes 0
+distance #1/F:71@CA #1/F:124@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:71,124 atoms
+
+# CONTACT_MONOMER - 68, P: 0.9816, cn: 0.0941, dist: 2.7244
+distance #1/E:27@CA #1/E:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+distance #1/F:27@CA #1/F:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/E,F:27,53 atoms
+
+# UNSATISFIED_MONOMER - 72, P: 0.9799, cn: 0.0933, dist: 29.1086
+distance #1/E:83@CA #1/E:111@CA color grey radius .33 symbol false dashes 0
+distance #1/F:83@CA #1/F:111@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:83,111 atoms
+
+# UNSATISFIED_MONOMER - 73, P: 0.9769, cn: 0.0922, dist: 8.4047
+distance #1/E:39@CA #1/E:93@CA color grey radius .33 symbol false dashes 0
+distance #1/F:39@CA #1/F:93@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:39,93 atoms
+
+# UNSATISFIED_MONOMER - 79, P: 0.9737, cn: 0.0911, dist: 30.0
+distance #1/E:40@CA #1/E:67@CA color grey radius .33 symbol false dashes 0
+distance #1/F:40@CA #1/F:67@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:40,67 atoms
+
+# CONTACT_FAR_MONOMER - 82, P: 0.9725, cn: 0.0907, dist: 6.5344
+distance #1/E:73@CA #1/E:79@CA color #6495ED radius .33 symbol false dashes 0
+distance #1/F:73@CA #1/F:79@CA color #6495ED radius .33 symbol false dashes 0
+show #1/E,F:73,79 atoms
+
+# CONTACT_FAR_MONOMER - 93, P: 0.9637, cn: 0.0884, dist: 5.8164
+distance #1/E:105@CA #1/E:118@CA color #6495ED radius .33 symbol false dashes 0
+distance #1/F:105@CA #1/F:118@CA color #6495ED radius .33 symbol false dashes 0
+show #1/E,F:105,118 atoms
+
+# UNSATISFIED_MONOMER - 108, P: 0.9449, cn: 0.0846, dist: 15.5222
+distance #1/E:32@CA #1/E:130@CA color grey radius .33 symbol false dashes 0
+distance #1/F:32@CA #1/F:130@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:32,130 atoms
+
+# CONTACT_FAR_MONOMER - 111, P: 0.9419, cn: 0.0841, dist: 6.5201
+distance #1/E:4@CA #1/E:11@CA color #6495ED radius .33 symbol false dashes 0
+distance #1/F:4@CA #1/F:11@CA color #6495ED radius .33 symbol false dashes 0
+show #1/E,F:4,11 atoms
+
+# CONTACT_FAR_MONOMER - 115, P: 0.9351, cn: 0.0831, dist: 5.2219
+distance #1/E:27@CA #1/E:57@CA color #6495ED radius .33 symbol false dashes 0
+distance #1/F:27@CA #1/F:57@CA color #6495ED radius .33 symbol false dashes 0
+show #1/E,F:27,57 atoms
+
+# CONTACT_FAR_MONOMER - 126, P: 0.9214, cn: 0.0812, dist: 5.3112
+distance #1/E:26@CA #1/E:32@CA color #6495ED radius .33 symbol false dashes 0
+distance #1/F:26@CA #1/F:32@CA color #6495ED radius .33 symbol false dashes 0
+show #1/E,F:26,32 atoms
+
+# UNSATISFIED_MONOMER - 138, P: 0.9041, cn: 0.0792, dist: 11.3336
+distance #1/E:26@CA #1/E:36@CA color grey radius .33 symbol false dashes 0
+distance #1/F:26@CA #1/F:36@CA color grey radius .33 symbol false dashes 0
+show #1/E,F:26,36 atoms
+
+hide H

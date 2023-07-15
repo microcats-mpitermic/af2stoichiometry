@@ -1,0 +1,1834 @@
+# ChimeraX script: Plot couplings on ald monomer
+hide atoms
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# CONTACT - 1, P: 1.0, cn: 2.2054, dist: 2.6744
+distance #1/A:162@CA #1/A:192@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:162,192 atoms
+
+# CONTACT - 2, P: 1.0, cn: 1.914, dist: 2.3315
+distance #1/A:233@CA #1/A:243@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:233,243 atoms
+
+# CONTACT - 3, P: 1.0, cn: 1.6248, dist: 2.9921
+distance #1/A:411@CA #1/A:423@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:411,423 atoms
+
+# CONTACT - 4, P: 1.0, cn: 1.5814, dist: 1.9689
+distance #1/A:100@CA #1/A:115@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:100,115 atoms
+
+# CONTACT - 5, P: 1.0, cn: 1.5126, dist: 2.6214
+distance #1/A:168@CA #1/A:199@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:168,199 atoms
+
+# CONTACT - 6, P: 1.0, cn: 1.2178, dist: 2.0987
+distance #1/A:161@CA #1/A:177@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:161,177 atoms
+
+# CONTACT - 7, P: 1.0, cn: 1.1796, dist: 2.3572
+distance #1/A:84@CA #1/A:109@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:84,109 atoms
+
+# CONTACT - 8, P: 1.0, cn: 1.1357, dist: 3.2642
+distance #1/A:164@CA #1/A:196@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:164,196 atoms
+
+# CONTACT - 9, P: 1.0, cn: 1.134, dist: 2.362
+distance #1/A:85@CA #1/A:112@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:85,112 atoms
+
+# UNSATISFIED - 10, P: 1.0, cn: 1.1329, dist: 29.9576
+distance #1/A:214@CA #1/A:272@CA color grey radius .33 symbol false dashes 0
+show #1/A:214,272 atoms
+
+# CONTACT - 11, P: 1.0, cn: 1.098, dist: 2.6082
+distance #1/A:176@CA #1/A:192@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:176,192 atoms
+
+# CONTACT - 12, P: 1.0, cn: 1.0726, dist: 2.3163
+distance #1/A:224@CA #1/A:255@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:224,255 atoms
+
+# CONTACT - 16, P: 1.0, cn: 1.0537, dist: 2.492
+distance #1/A:14@CA #1/A:41@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:14,41 atoms
+
+# CONTACT - 13, P: 1.0, cn: 1.0383, dist: 2.7409
+distance #1/A:161@CA #1/A:175@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:161,175 atoms
+
+# CONTACT - 15, P: 1.0, cn: 1.0378, dist: 4.2628
+distance #1/A:158@CA #1/A:181@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:158,181 atoms
+
+# CONTACT - 14, P: 1.0, cn: 1.0345, dist: 2.5322
+distance #1/A:91@CA #1/A:101@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:91,101 atoms
+
+# CONTACT - 18, P: 1.0, cn: 0.9967, dist: 2.3671
+distance #1/A:292@CA #1/A:424@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:292,424 atoms
+
+# CONTACT - 17, P: 1.0, cn: 0.9956, dist: 2.3052
+distance #1/A:408@CA #1/A:423@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:408,423 atoms
+
+# CONTACT - 19, P: 1.0, cn: 0.9831, dist: 2.5288
+distance #1/A:160@CA #1/A:180@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:160,180 atoms
+
+# CONTACT - 20, P: 1.0, cn: 0.9506, dist: 4.9355
+distance #1/A:137@CA #1/A:153@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:137,153 atoms
+
+# CONTACT - 22, P: 1.0, cn: 0.9408, dist: 2.3661
+distance #1/A:101@CA #1/A:112@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:101,112 atoms
+
+# CONTACT - 21, P: 1.0, cn: 0.939, dist: 2.225
+distance #1/A:150@CA #1/A:245@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:150,245 atoms
+
+# CONTACT - 23, P: 1.0, cn: 0.9331, dist: 2.3243
+distance #1/A:298@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:298,409 atoms
+
+# UNSATISFIED - 24, P: 1.0, cn: 0.8864, dist: 28.984
+distance #1/A:202@CA #1/A:238@CA color grey radius .33 symbol false dashes 0
+show #1/A:202,238 atoms
+
+# CONTACT - 25, P: 1.0, cn: 0.863, dist: 2.2008
+distance #1/A:245@CA #1/A:252@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:245,252 atoms
+
+# CONTACT_FAR - 26, P: 1.0, cn: 0.8616, dist: 6.904
+distance #1/A:74@CA #1/A:84@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:74,84 atoms
+
+# CONTACT - 27, P: 1.0, cn: 0.829, dist: 2.2832
+distance #1/A:95@CA #1/A:101@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:95,101 atoms
+
+# CONTACT - 28, P: 1.0, cn: 0.8098, dist: 2.0157
+distance #1/A:31@CA #1/A:39@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:31,39 atoms
+
+# CONTACT_FAR - 29, P: 1.0, cn: 0.8082, dist: 7.2027
+distance #1/A:93@CA #1/A:171@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:93,171 atoms
+
+# CONTACT - 30, P: 1.0, cn: 0.7965, dist: 2.1879
+distance #1/A:331@CA #1/A:378@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:331,378 atoms
+
+# CONTACT - 45, P: 1.0, cn: 0.7947, dist: 4.9935
+distance #1/A:11@CA #1/A:39@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:11,39 atoms
+
+# CONTACT - 32, P: 1.0, cn: 0.7917, dist: 4.8163
+distance #1/A:163@CA #1/A:173@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:163,173 atoms
+
+# CONTACT - 31, P: 1.0, cn: 0.7916, dist: 2.4569
+distance #1/A:27@CA #1/A:45@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:27,45 atoms
+
+# CONTACT - 33, P: 1.0, cn: 0.7878, dist: 2.5241
+distance #1/A:150@CA #1/A:177@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:150,177 atoms
+
+# UNSATISFIED - 34, P: 1.0, cn: 0.7838, dist: 33.0513
+distance #1/A:156@CA #1/A:169@CA color grey radius .33 symbol false dashes 0
+show #1/A:156,169 atoms
+
+# CONTACT - 35, P: 1.0, cn: 0.778, dist: 2.5294
+distance #1/A:166@CA #1/A:195@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:166,195 atoms
+
+# UNSATISFIED - 36, P: 1.0, cn: 0.7777, dist: 47.477
+distance #1/A:23@CA #1/A:180@CA color grey radius .33 symbol false dashes 0
+show #1/A:23,180 atoms
+
+# CONTACT - 38, P: 1.0, cn: 0.7654, dist: 2.4143
+distance #1/A:227@CA #1/A:233@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:227,233 atoms
+
+# CONTACT - 37, P: 1.0, cn: 0.7651, dist: 4.3278
+distance #1/A:164@CA #1/A:192@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:164,192 atoms
+
+# CONTACT - 40, P: 1.0, cn: 0.7602, dist: 2.5174
+distance #1/A:335@CA #1/A:405@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:335,405 atoms
+
+# CONTACT_FAR - 39, P: 1.0, cn: 0.7588, dist: 5.3843
+distance #1/A:408@CA #1/A:427@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:408,427 atoms
+
+# CONTACT - 41, P: 1.0, cn: 0.757, dist: 2.2539
+distance #1/A:94@CA #1/A:112@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:94,112 atoms
+
+# CONTACT - 42, P: 1.0, cn: 0.7531, dist: 2.5899
+distance #1/A:143@CA #1/A:175@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:143,175 atoms
+
+# CONTACT - 43, P: 1.0, cn: 0.7453, dist: 1.7354
+distance #1/A:86@CA #1/A:109@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:86,109 atoms
+
+# CONTACT - 44, P: 1.0, cn: 0.7448, dist: 2.4343
+distance #1/A:412@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:412,420 atoms
+
+# CONTACT - 46, P: 1.0, cn: 0.7241, dist: 2.3918
+distance #1/A:163@CA #1/A:175@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:163,175 atoms
+
+# CONTACT - 47, P: 1.0, cn: 0.7204, dist: 2.3497
+distance #1/A:328@CA #1/A:413@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:328,413 atoms
+
+# CONTACT - 48, P: 1.0, cn: 0.7181, dist: 3.1063
+distance #1/A:99@CA #1/A:116@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:99,116 atoms
+
+# CONTACT - 50, P: 1.0, cn: 0.717, dist: 2.3081
+distance #1/A:165@CA #1/A:173@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:165,173 atoms
+
+# CONTACT - 49, P: 1.0, cn: 0.7168, dist: 2.5526
+distance #1/A:166@CA #1/A:174@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:166,174 atoms
+
+# CONTACT - 52, P: 1.0, cn: 0.7132, dist: 2.6213
+distance #1/A:205@CA #1/A:249@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:205,249 atoms
+
+# CONTACT - 51, P: 1.0, cn: 0.7117, dist: 2.272
+distance #1/A:33@CA #1/A:39@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:33,39 atoms
+
+# CONTACT - 54, P: 1.0, cn: 0.7105, dist: 2.1492
+distance #1/A:50@CA #1/A:117@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:50,117 atoms
+
+# UNSATISFIED - 53, P: 1.0, cn: 0.7097, dist: 40.433
+distance #1/A:22@CA #1/A:160@CA color grey radius .33 symbol false dashes 0
+show #1/A:22,160 atoms
+
+# CONTACT - 56, P: 1.0, cn: 0.7029, dist: 2.3187
+distance #1/A:236@CA #1/A:254@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:236,254 atoms
+
+# CONTACT - 55, P: 1.0, cn: 0.7012, dist: 2.2644
+distance #1/A:191@CA #1/A:255@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:191,255 atoms
+
+# CONTACT - 57, P: 1.0, cn: 0.6884, dist: 2.1248
+distance #1/A:263@CA #1/A:287@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:263,287 atoms
+
+# CONTACT - 58, P: 1.0, cn: 0.6857, dist: 2.5906
+distance #1/A:191@CA #1/A:242@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:191,242 atoms
+
+# CONTACT - 59, P: 1.0, cn: 0.6854, dist: 1.9423
+distance #1/A:158@CA #1/A:180@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:158,180 atoms
+
+# CONTACT - 60, P: 1.0, cn: 0.6832, dist: 2.1723
+distance #1/A:200@CA #1/A:212@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:200,212 atoms
+
+# CONTACT - 62, P: 1.0, cn: 0.6815, dist: 2.4732
+distance #1/A:244@CA #1/A:255@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:244,255 atoms
+
+# CONTACT - 61, P: 1.0, cn: 0.6787, dist: 2.4767
+distance #1/A:191@CA #1/A:244@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:191,244 atoms
+
+# CONTACT - 63, P: 1.0, cn: 0.6781, dist: 2.768
+distance #1/A:18@CA #1/A:29@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:18,29 atoms
+
+# CONTACT_FAR - 66, P: 1.0, cn: 0.6779, dist: 5.6121
+distance #1/A:14@CA #1/A:31@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:14,31 atoms
+
+# UNSATISFIED - 64, P: 1.0, cn: 0.6761, dist: 18.3025
+distance #1/A:46@CA #1/A:144@CA color grey radius .33 symbol false dashes 0
+show #1/A:46,144 atoms
+
+# UNSATISFIED - 67, P: 1.0, cn: 0.6625, dist: 32.3631
+distance #1/A:169@CA #1/A:181@CA color grey radius .33 symbol false dashes 0
+show #1/A:169,181 atoms
+
+# CONTACT - 65, P: 1.0, cn: 0.6616, dist: 2.3223
+distance #1/A:331@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:331,409 atoms
+
+# CONTACT - 68, P: 1.0, cn: 0.6539, dist: 2.776
+distance #1/A:188@CA #1/A:242@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:188,242 atoms
+
+# UNSATISFIED - 69, P: 1.0, cn: 0.6512, dist: 27.5958
+distance #1/A:97@CA #1/A:155@CA color grey radius .33 symbol false dashes 0
+show #1/A:97,155 atoms
+
+# UNSATISFIED - 70, P: 1.0, cn: 0.6344, dist: 22.3888
+distance #1/A:278@CA #1/A:403@CA color grey radius .33 symbol false dashes 0
+show #1/A:278,403 atoms
+
+# CONTACT - 71, P: 1.0, cn: 0.6336, dist: 2.3761
+distance #1/A:102@CA #1/A:113@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:102,113 atoms
+
+# UNSATISFIED - 72, P: 1.0, cn: 0.6316, dist: 36.8815
+distance #1/A:24@CA #1/A:160@CA color grey radius .33 symbol false dashes 0
+show #1/A:24,160 atoms
+
+# CONTACT - 73, P: 1.0, cn: 0.6261, dist: 2.5717
+distance #1/A:147@CA #1/A:161@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:147,161 atoms
+
+# UNSATISFIED - 74, P: 1.0, cn: 0.6243, dist: 35.5559
+distance #1/A:23@CA #1/A:162@CA color grey radius .33 symbol false dashes 0
+show #1/A:23,162 atoms
+
+# CONTACT - 75, P: 1.0, cn: 0.6136, dist: 2.3863
+distance #1/A:135@CA #1/A:270@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:135,270 atoms
+
+# CONTACT - 77, P: 1.0, cn: 0.6089, dist: 2.0683
+distance #1/A:165@CA #1/A:171@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:165,171 atoms
+
+# CONTACT - 76, P: 1.0, cn: 0.606, dist: 2.5832
+distance #1/A:103@CA #1/A:110@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:103,110 atoms
+
+# CONTACT - 79, P: 1.0, cn: 0.6055, dist: 2.2721
+distance #1/A:432@CA #1/A:442@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:432,442 atoms
+
+# CONTACT - 78, P: 1.0, cn: 0.6046, dist: 2.1359
+distance #1/A:295@CA #1/A:412@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:295,412 atoms
+
+# CONTACT - 80, P: 1.0, cn: 0.6042, dist: 4.3349
+distance #1/A:81@CA #1/A:114@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:81,114 atoms
+
+# CONTACT - 81, P: 1.0, cn: 0.6016, dist: 2.3407
+distance #1/A:174@CA #1/A:246@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:174,246 atoms
+
+# CONTACT - 83, P: 1.0, cn: 0.5977, dist: 2.4367
+distance #1/A:287@CA #1/A:401@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:287,401 atoms
+
+# CONTACT - 82, P: 1.0, cn: 0.5967, dist: 2.8957
+distance #1/A:183@CA #1/A:242@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:183,242 atoms
+
+# CONTACT - 84, P: 1.0, cn: 0.5952, dist: 2.8235
+distance #1/A:206@CA #1/A:246@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:206,246 atoms
+
+# CONTACT - 85, P: 1.0, cn: 0.5857, dist: 2.2682
+distance #1/A:29@CA #1/A:43@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:29,43 atoms
+
+# CONTACT - 86, P: 1.0, cn: 0.5839, dist: 2.5967
+distance #1/A:27@CA #1/A:43@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:27,43 atoms
+
+# CONTACT - 87, P: 1.0, cn: 0.5706, dist: 1.9791
+distance #1/A:91@CA #1/A:110@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:91,110 atoms
+
+# CONTACT - 95, P: 0.9999, cn: 0.5696, dist: 2.4668
+distance #1/A:16@CA #1/A:88@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:16,88 atoms
+
+# CONTACT_FAR - 90, P: 0.9999, cn: 0.5661, dist: 7.6381
+distance #1/A:127@CA #1/A:136@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:127,136 atoms
+
+# CONTACT - 89, P: 0.9999, cn: 0.5642, dist: 2.4272
+distance #1/A:99@CA #1/A:114@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:99,114 atoms
+
+# CONTACT - 91, P: 0.9999, cn: 0.5624, dist: 2.2798
+distance #1/A:179@CA #1/A:237@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:179,237 atoms
+
+# UNSATISFIED - 97, P: 0.9999, cn: 0.5614, dist: 15.2142
+distance #1/A:118@CA #1/A:152@CA color grey radius .33 symbol false dashes 0
+show #1/A:118,152 atoms
+
+# UNSATISFIED - 88, P: 0.9999, cn: 0.561, dist: 17.3964
+distance #1/A:286@CA #1/A:340@CA color grey radius .33 symbol false dashes 0
+show #1/A:286,340 atoms
+
+# CONTACT - 94, P: 0.9999, cn: 0.5601, dist: 3.2056
+distance #1/A:164@CA #1/A:176@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:164,176 atoms
+
+# CONTACT - 92, P: 0.9999, cn: 0.5566, dist: 2.4182
+distance #1/A:29@CA #1/A:41@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:29,41 atoms
+
+# CONTACT - 93, P: 0.9999, cn: 0.5559, dist: 3.0275
+distance #1/A:101@CA #1/A:110@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:101,110 atoms
+
+# CONTACT - 96, P: 0.9999, cn: 0.5541, dist: 2.2805
+distance #1/A:126@CA #1/A:138@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:126,138 atoms
+
+# CONTACT - 98, P: 0.9999, cn: 0.5516, dist: 1.6967
+distance #1/A:295@CA #1/A:408@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:295,408 atoms
+
+# CONTACT - 100, P: 0.9999, cn: 0.549, dist: 1.8725
+distance #1/A:170@CA #1/A:202@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:170,202 atoms
+
+# CONTACT - 102, P: 0.9999, cn: 0.5473, dist: 2.5094
+distance #1/A:241@CA #1/A:261@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:241,261 atoms
+
+# CONTACT - 99, P: 0.9999, cn: 0.5465, dist: 2.418
+distance #1/A:99@CA #1/A:112@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:99,112 atoms
+
+# CONTACT - 101, P: 0.9999, cn: 0.5436, dist: 2.0507
+distance #1/A:154@CA #1/A:234@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:154,234 atoms
+
+# UNSATISFIED - 104, P: 0.9999, cn: 0.5414, dist: 32.9601
+distance #1/A:169@CA #1/A:182@CA color grey radius .33 symbol false dashes 0
+show #1/A:169,182 atoms
+
+# CONTACT - 103, P: 0.9999, cn: 0.5406, dist: 2.5614
+distance #1/A:431@CA #1/A:442@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:431,442 atoms
+
+# UNSATISFIED - 105, P: 0.9999, cn: 0.5391, dist: 8.6745
+distance #1/A:93@CA #1/A:165@CA color grey radius .33 symbol false dashes 0
+show #1/A:93,165 atoms
+
+# CONTACT - 107, P: 0.9999, cn: 0.5367, dist: 2.3102
+distance #1/A:34@CA #1/A:40@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:34,40 atoms
+
+# CONTACT - 106, P: 0.9999, cn: 0.5345, dist: 2.4437
+distance #1/A:143@CA #1/A:245@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:143,245 atoms
+
+# CONTACT - 108, P: 0.9999, cn: 0.5328, dist: 2.2507
+distance #1/A:120@CA #1/A:142@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:120,142 atoms
+
+# CONTACT - 109, P: 0.9999, cn: 0.532, dist: 3.8163
+distance #1/A:120@CA #1/A:145@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:120,145 atoms
+
+# CONTACT - 110, P: 0.9999, cn: 0.5239, dist: 2.2316
+distance #1/A:233@CA #1/A:254@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:233,254 atoms
+
+# CONTACT_FAR - 111, P: 0.9999, cn: 0.517, dist: 6.1805
+distance #1/A:83@CA #1/A:94@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:83,94 atoms
+
+# UNSATISFIED - 112, P: 0.9998, cn: 0.5101, dist: 31.0951
+distance #1/A:158@CA #1/A:169@CA color grey radius .33 symbol false dashes 0
+show #1/A:158,169 atoms
+
+# CONTACT - 115, P: 0.9998, cn: 0.5013, dist: 2.3006
+distance #1/A:20@CA #1/A:92@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:20,92 atoms
+
+# CONTACT - 113, P: 0.9998, cn: 0.5011, dist: 1.7428
+distance #1/A:194@CA #1/A:215@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:194,215 atoms
+
+# CONTACT - 118, P: 0.9998, cn: 0.4957, dist: 3.2156
+distance #1/A:21@CA #1/A:96@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:21,96 atoms
+
+# CONTACT - 117, P: 0.9998, cn: 0.4951, dist: 2.2432
+distance #1/A:139@CA #1/A:233@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:139,233 atoms
+
+# CONTACT - 116, P: 0.9998, cn: 0.4947, dist: 2.7021
+distance #1/A:177@CA #1/A:245@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:177,245 atoms
+
+# CONTACT - 114, P: 0.9998, cn: 0.4939, dist: 2.8886
+distance #1/A:404@CA #1/A:427@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:404,427 atoms
+
+# CONTACT - 119, P: 0.9998, cn: 0.4908, dist: 1.7313
+distance #1/A:242@CA #1/A:255@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:242,255 atoms
+
+# CONTACT - 120, P: 0.9997, cn: 0.4882, dist: 2.7567
+distance #1/A:150@CA #1/A:159@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:150,159 atoms
+
+# CONTACT - 123, P: 0.9997, cn: 0.4843, dist: 1.9484
+distance #1/A:39@CA #1/A:105@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:39,105 atoms
+
+# CONTACT - 121, P: 0.9997, cn: 0.481, dist: 2.4073
+distance #1/A:31@CA #1/A:41@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:31,41 atoms
+
+# CONTACT - 122, P: 0.9997, cn: 0.4807, dist: 3.072
+distance #1/A:125@CA #1/A:138@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:125,138 atoms
+
+# CONTACT - 124, P: 0.9997, cn: 0.4789, dist: 2.7843
+distance #1/A:85@CA #1/A:91@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:85,91 atoms
+
+# CONTACT_FAR - 125, P: 0.9997, cn: 0.478, dist: 7.2001
+distance #1/A:79@CA #1/A:113@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:79,113 atoms
+
+# CONTACT - 127, P: 0.9997, cn: 0.4752, dist: 2.3528
+distance #1/A:184@CA #1/A:439@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:184,439 atoms
+
+# CONTACT_FAR - 126, P: 0.9997, cn: 0.4732, dist: 7.0011
+distance #1/A:137@CA #1/A:152@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:137,152 atoms
+
+# CONTACT - 128, P: 0.9996, cn: 0.4708, dist: 2.1611
+distance #1/A:294@CA #1/A:385@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:294,385 atoms
+
+# CONTACT - 131, P: 0.9996, cn: 0.4693, dist: 1.7449
+distance #1/A:140@CA #1/A:146@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:140,146 atoms
+
+# CONTACT - 129, P: 0.9996, cn: 0.4667, dist: 2.4769
+distance #1/A:154@CA #1/A:238@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:154,238 atoms
+
+# UNSATISFIED - 134, P: 0.9995, cn: 0.4662, dist: 42.7543
+distance #1/A:20@CA #1/A:157@CA color grey radius .33 symbol false dashes 0
+show #1/A:20,157 atoms
+
+# CONTACT - 130, P: 0.9996, cn: 0.4626, dist: 2.1602
+distance #1/A:125@CA #1/A:136@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:125,136 atoms
+
+# CONTACT - 132, P: 0.9995, cn: 0.4581, dist: 2.2741
+distance #1/A:123@CA #1/A:137@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:123,137 atoms
+
+# UNSATISFIED - 139, P: 0.9994, cn: 0.4565, dist: 9.5378
+distance #1/A:260@CA #1/A:445@CA color grey radius .33 symbol false dashes 0
+show #1/A:260,445 atoms
+
+# CONTACT - 133, P: 0.9995, cn: 0.4562, dist: 2.362
+distance #1/A:198@CA #1/A:209@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:198,209 atoms
+
+# CONTACT - 135, P: 0.9995, cn: 0.4523, dist: 2.4186
+distance #1/A:40@CA #1/A:104@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:40,104 atoms
+
+# CONTACT - 176, P: 0.9979, cn: 0.4511, dist: 2.9612
+distance #1/A:11@CA #1/A:31@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:11,31 atoms
+
+# CONTACT - 140, P: 0.9994, cn: 0.4502, dist: 2.5957
+distance #1/A:187@CA #1/A:242@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:187,242 atoms
+
+# CONTACT - 136, P: 0.9994, cn: 0.45, dist: 2.5011
+distance #1/A:233@CA #1/A:252@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:233,252 atoms
+
+# CONTACT - 144, P: 0.9993, cn: 0.4499, dist: 1.9141
+distance #1/A:173@CA #1/A:247@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:173,247 atoms
+
+# CONTACT - 138, P: 0.9994, cn: 0.4496, dist: 3.7091
+distance #1/A:328@CA #1/A:410@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:328,410 atoms
+
+# CONTACT - 137, P: 0.9994, cn: 0.4484, dist: 2.2321
+distance #1/A:28@CA #1/A:46@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:28,46 atoms
+
+# UNSATISFIED - 141, P: 0.9994, cn: 0.4479, dist: 18.4457
+distance #1/A:48@CA #1/A:148@CA color grey radius .33 symbol false dashes 0
+show #1/A:48,148 atoms
+
+# UNSATISFIED - 142, P: 0.9993, cn: 0.4453, dist: 14.2288
+distance #1/A:30@CA #1/A:82@CA color grey radius .33 symbol false dashes 0
+show #1/A:30,82 atoms
+
+# CONTACT - 143, P: 0.9993, cn: 0.4445, dist: 2.6877
+distance #1/A:339@CA #1/A:406@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:339,406 atoms
+
+# CONTACT - 145, P: 0.9993, cn: 0.4426, dist: 4.404
+distance #1/A:130@CA #1/A:350@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:130,350 atoms
+
+# UNSATISFIED - 146, P: 0.9993, cn: 0.4396, dist: 20.6773
+distance #1/A:47@CA #1/A:148@CA color grey radius .33 symbol false dashes 0
+show #1/A:47,148 atoms
+
+# CONTACT - 149, P: 0.9989, cn: 0.4388, dist: 2.44
+distance #1/A:14@CA #1/A:43@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:14,43 atoms
+
+# UNSATISFIED - 147, P: 0.9992, cn: 0.4358, dist: 20.4227
+distance #1/A:47@CA #1/A:147@CA color grey radius .33 symbol false dashes 0
+show #1/A:47,147 atoms
+
+# CONTACT - 168, P: 0.9982, cn: 0.4269, dist: 1.8766
+distance #1/A:182@CA #1/A:468@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:182,468 atoms
+
+# CONTACT - 154, P: 0.9988, cn: 0.4242, dist: 3.974
+distance #1/A:327@CA #1/A:378@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:327,378 atoms
+
+# UNSATISFIED - 155, P: 0.9988, cn: 0.4202, dist: 41.3748
+distance #1/A:23@CA #1/A:160@CA color grey radius .33 symbol false dashes 0
+show #1/A:23,160 atoms
+
+# CONTACT - 148, P: 0.999, cn: 0.4199, dist: 2.1723
+distance #1/A:243@CA #1/A:254@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:243,254 atoms
+
+# CONTACT_FAR - 151, P: 0.9989, cn: 0.4198, dist: 6.788
+distance #1/A:97@CA #1/A:173@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:97,173 atoms
+
+# CONTACT - 153, P: 0.9988, cn: 0.4194, dist: 2.1049
+distance #1/A:139@CA #1/A:150@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:139,150 atoms
+
+# CONTACT - 152, P: 0.9989, cn: 0.4182, dist: 2.3135
+distance #1/A:286@CA #1/A:391@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:286,391 atoms
+
+# UNSATISFIED - 156, P: 0.9988, cn: 0.4177, dist: 28.6529
+distance #1/A:25@CA #1/A:163@CA color grey radius .33 symbol false dashes 0
+show #1/A:25,163 atoms
+
+# CONTACT - 150, P: 0.9989, cn: 0.4176, dist: 2.4674
+distance #1/A:298@CA #1/A:331@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:298,331 atoms
+
+# UNSATISFIED - 157, P: 0.9987, cn: 0.4173, dist: 19.2199
+distance #1/A:155@CA #1/A:247@CA color grey radius .33 symbol false dashes 0
+show #1/A:155,247 atoms
+
+# CONTACT_FAR - 164, P: 0.9985, cn: 0.4136, dist: 5.9269
+distance #1/A:269@CA #1/A:455@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:269,455 atoms
+
+# CONTACT - 159, P: 0.9986, cn: 0.4113, dist: 1.9407
+distance #1/A:54@CA #1/A:100@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:54,100 atoms
+
+# CONTACT - 185, P: 0.9973, cn: 0.4111, dist: 2.4027
+distance #1/A:13@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:13,103 atoms
+
+# CONTACT - 158, P: 0.9987, cn: 0.4091, dist: 2.4105
+distance #1/A:243@CA #1/A:252@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:243,252 atoms
+
+# CONTACT - 160, P: 0.9986, cn: 0.4068, dist: 2.9341
+distance #1/A:292@CA #1/A:408@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:292,408 atoms
+
+# CONTACT - 170, P: 0.9981, cn: 0.4062, dist: 2.0593
+distance #1/A:299@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:299,420 atoms
+
+# CONTACT - 162, P: 0.9985, cn: 0.4054, dist: 2.7735
+distance #1/A:147@CA #1/A:177@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:147,177 atoms
+
+# CONTACT - 161, P: 0.9985, cn: 0.4046, dist: 2.2728
+distance #1/A:176@CA #1/A:191@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:176,191 atoms
+
+# CONTACT - 163, P: 0.9985, cn: 0.4038, dist: 2.8556
+distance #1/A:232@CA #1/A:266@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:232,266 atoms
+
+# CONTACT_FAR - 167, P: 0.9983, cn: 0.4034, dist: 7.4669
+distance #1/A:337@CA #1/A:363@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:337,363 atoms
+
+# UNSATISFIED - 165, P: 0.9984, cn: 0.4007, dist: 29.2399
+distance #1/A:170@CA #1/A:238@CA color grey radius .33 symbol false dashes 0
+show #1/A:170,238 atoms
+
+# CONTACT - 245, P: 0.9908, cn: 0.4004, dist: 2.3304
+distance #1/A:10@CA #1/A:41@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:10,41 atoms
+
+# CONTACT - 166, P: 0.9983, cn: 0.3992, dist: 2.4701
+distance #1/A:176@CA #1/A:242@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:176,242 atoms
+
+# CONTACT - 171, P: 0.9981, cn: 0.3983, dist: 2.3524
+distance #1/A:53@CA #1/A:115@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:53,115 atoms
+
+# CONTACT - 178, P: 0.9978, cn: 0.3958, dist: 3.0112
+distance #1/A:17@CA #1/A:43@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:17,43 atoms
+
+# UNSATISFIED - 169, P: 0.9982, cn: 0.3949, dist: 16.6403
+distance #1/A:33@CA #1/A:75@CA color grey radius .33 symbol false dashes 0
+show #1/A:33,75 atoms
+
+# CONTACT - 172, P: 0.998, cn: 0.3929, dist: 2.358
+distance #1/A:338@CA #1/A:386@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:338,386 atoms
+
+# CONTACT - 173, P: 0.998, cn: 0.3915, dist: 2.7629
+distance #1/A:335@CA #1/A:406@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:335,406 atoms
+
+# CONTACT - 175, P: 0.998, cn: 0.3895, dist: 2.3765
+distance #1/A:220@CA #1/A:430@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:220,430 atoms
+
+# CONTACT - 179, P: 0.9977, cn: 0.3889, dist: 2.6986
+distance #1/A:137@CA #1/A:149@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:137,149 atoms
+
+# UNSATISFIED - 180, P: 0.9977, cn: 0.3886, dist: 31.5683
+distance #1/A:26@CA #1/A:151@CA color grey radius .33 symbol false dashes 0
+show #1/A:26,151 atoms
+
+# CONTACT - 174, P: 0.998, cn: 0.3886, dist: 2.5393
+distance #1/A:302@CA #1/A:327@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:302,327 atoms
+
+# CONTACT_FAR - 177, P: 0.9978, cn: 0.3842, dist: 7.2409
+distance #1/A:454@CA #1/A:460@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:454,460 atoms
+
+# CONTACT - 264, P: 0.9873, cn: 0.3829, dist: 2.2893
+distance #1/A:10@CA #1/A:105@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:10,105 atoms
+
+# CONTACT - 191, P: 0.997, cn: 0.3829, dist: 3.0832
+distance #1/A:262@CA #1/A:397@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:262,397 atoms
+
+# CONTACT - 266, P: 0.9868, cn: 0.3823, dist: 2.0887
+distance #1/A:10@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:10,103 atoms
+
+# CONTACT - 181, P: 0.9976, cn: 0.3821, dist: 2.6193
+distance #1/A:296@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:296,420 atoms
+
+# CONTACT - 182, P: 0.9975, cn: 0.3807, dist: 3.4523
+distance #1/A:131@CA #1/A:265@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:131,265 atoms
+
+# CONTACT - 183, P: 0.9975, cn: 0.3799, dist: 2.0495
+distance #1/A:219@CA #1/A:430@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:219,430 atoms
+
+# UNSATISFIED - 188, P: 0.9972, cn: 0.3786, dist: 29.4795
+distance #1/A:169@CA #1/A:179@CA color grey radius .33 symbol false dashes 0
+show #1/A:169,179 atoms
+
+# UNSATISFIED - 190, P: 0.997, cn: 0.378, dist: 8.9454
+distance #1/A:451@CA #1/A:467@CA color grey radius .33 symbol false dashes 0
+show #1/A:451,467 atoms
+
+# CONTACT - 184, P: 0.9973, cn: 0.3771, dist: 2.3233
+distance #1/A:150@CA #1/A:233@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:150,233 atoms
+
+# UNSATISFIED - 187, P: 0.9972, cn: 0.3761, dist: 19.0534
+distance #1/A:285@CA #1/A:336@CA color grey radius .33 symbol false dashes 0
+show #1/A:285,336 atoms
+
+# CONTACT - 197, P: 0.9968, cn: 0.3759, dist: 1.9067
+distance #1/A:28@CA #1/A:44@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:28,44 atoms
+
+# CONTACT - 186, P: 0.9972, cn: 0.3757, dist: 2.9632
+distance #1/A:335@CA #1/A:382@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:335,382 atoms
+
+# CONTACT - 189, P: 0.9971, cn: 0.3735, dist: 2.4213
+distance #1/A:153@CA #1/A:234@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:153,234 atoms
+
+# CONTACT - 193, P: 0.9969, cn: 0.3732, dist: 2.9001
+distance #1/A:221@CA #1/A:431@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,431 atoms
+
+# CONTACT - 195, P: 0.9969, cn: 0.3726, dist: 1.7931
+distance #1/A:177@CA #1/A:243@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:177,243 atoms
+
+# CONTACT_FAR - 196, P: 0.9969, cn: 0.3715, dist: 7.5512
+distance #1/A:83@CA #1/A:90@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:83,90 atoms
+
+# UNSATISFIED - 198, P: 0.9968, cn: 0.3709, dist: 13.9547
+distance #1/A:119@CA #1/A:148@CA color grey radius .33 symbol false dashes 0
+show #1/A:119,148 atoms
+
+# CONTACT - 194, P: 0.9969, cn: 0.3706, dist: 2.7299
+distance #1/A:203@CA #1/A:209@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:203,209 atoms
+
+# CONTACT_FAR - 192, P: 0.997, cn: 0.3696, dist: 6.3714
+distance #1/A:445@CA #1/A:456@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:445,456 atoms
+
+# UNSATISFIED - 199, P: 0.9968, cn: 0.3688, dist: 8.3615
+distance #1/A:119@CA #1/A:145@CA color grey radius .33 symbol false dashes 0
+show #1/A:119,145 atoms
+
+# CONTACT - 203, P: 0.9964, cn: 0.3675, dist: 4.3158
+distance #1/A:290@CA #1/A:392@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:290,392 atoms
+
+# CONTACT - 200, P: 0.9965, cn: 0.3674, dist: 1.8797
+distance #1/A:118@CA #1/A:142@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:118,142 atoms
+
+# UNSATISFIED - 228, P: 0.994, cn: 0.3668, dist: 37.4503
+distance #1/A:201@CA #1/A:468@CA color grey radius .33 symbol false dashes 0
+show #1/A:201,468 atoms
+
+# CONTACT - 202, P: 0.9965, cn: 0.3662, dist: 2.0848
+distance #1/A:214@CA #1/A:223@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:214,223 atoms
+
+# CONTACT - 201, P: 0.9965, cn: 0.3654, dist: 2.4617
+distance #1/A:332@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:332,409 atoms
+
+# CONTACT - 205, P: 0.9964, cn: 0.3646, dist: 2.6129
+distance #1/A:260@CA #1/A:284@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:260,284 atoms
+
+# CONTACT - 206, P: 0.9963, cn: 0.3644, dist: 2.6094
+distance #1/A:328@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:328,409 atoms
+
+# CONTACT - 216, P: 0.9958, cn: 0.3642, dist: 2.2592
+distance #1/A:21@CA #1/A:92@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:21,92 atoms
+
+# CONTACT - 204, P: 0.9964, cn: 0.3637, dist: 2.28
+distance #1/A:191@CA #1/A:437@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:191,437 atoms
+
+# CONTACT - 210, P: 0.996, cn: 0.3632, dist: 2.2323
+distance #1/A:224@CA #1/A:253@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:224,253 atoms
+
+# CONTACT - 209, P: 0.9961, cn: 0.3628, dist: 2.2765
+distance #1/A:54@CA #1/A:115@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:54,115 atoms
+
+# CONTACT - 208, P: 0.9961, cn: 0.3615, dist: 2.2013
+distance #1/A:132@CA #1/A:267@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:132,267 atoms
+
+# UNSATISFIED - 211, P: 0.996, cn: 0.3607, dist: 35.6968
+distance #1/A:92@CA #1/A:157@CA color grey radius .33 symbol false dashes 0
+show #1/A:92,157 atoms
+
+# CONTACT_FAR - 212, P: 0.996, cn: 0.36, dist: 6.6063
+distance #1/A:144@CA #1/A:173@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:144,173 atoms
+
+# CONTACT - 207, P: 0.9961, cn: 0.3597, dist: 2.1455
+distance #1/A:291@CA #1/A:404@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:291,404 atoms
+
+# CONTACT - 213, P: 0.9959, cn: 0.3583, dist: 2.2694
+distance #1/A:221@CA #1/A:441@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,441 atoms
+
+# CONTACT - 215, P: 0.9958, cn: 0.3582, dist: 2.3457
+distance #1/A:147@CA #1/A:175@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:147,175 atoms
+
+# CONTACT - 214, P: 0.9959, cn: 0.3578, dist: 2.2249
+distance #1/A:43@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:43,103 atoms
+
+# CONTACT_FAR - 219, P: 0.9954, cn: 0.3569, dist: 5.5097
+distance #1/A:254@CA #1/A:261@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:254,261 atoms
+
+# CONTACT - 220, P: 0.9951, cn: 0.3569, dist: 2.3182
+distance #1/A:169@CA #1/A:201@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:169,201 atoms
+
+# CONTACT_FAR - 218, P: 0.9955, cn: 0.3534, dist: 5.4346
+distance #1/A:83@CA #1/A:99@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:83,99 atoms
+
+# UNSATISFIED - 217, P: 0.9956, cn: 0.3531, dist: 22.4099
+distance #1/A:133@CA #1/A:210@CA color grey radius .33 symbol false dashes 0
+show #1/A:133,210 atoms
+
+# CONTACT_FAR - 239, P: 0.9917, cn: 0.3514, dist: 6.6283
+distance #1/A:70@CA #1/A:111@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:70,111 atoms
+
+# CONTACT_FAR - 221, P: 0.9949, cn: 0.3507, dist: 5.4926
+distance #1/A:177@CA #1/A:252@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:177,252 atoms
+
+# CONTACT - 224, P: 0.9944, cn: 0.3479, dist: 2.3388
+distance #1/A:224@CA #1/A:437@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:224,437 atoms
+
+# CONTACT - 222, P: 0.9948, cn: 0.3479, dist: 2.5218
+distance #1/A:156@CA #1/A:179@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:156,179 atoms
+
+# CONTACT - 229, P: 0.9939, cn: 0.3442, dist: 1.8226
+distance #1/A:225@CA #1/A:254@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:225,254 atoms
+
+# CONTACT - 230, P: 0.9939, cn: 0.3432, dist: 2.8788
+distance #1/A:290@CA #1/A:401@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:290,401 atoms
+
+# UNSATISFIED - 223, P: 0.9947, cn: 0.3423, dist: 37.787
+distance #1/A:217@CA #1/A:463@CA color grey radius .33 symbol false dashes 0
+show #1/A:217,463 atoms
+
+# CONTACT_FAR - 226, P: 0.9941, cn: 0.3422, dist: 6.7393
+distance #1/A:335@CA #1/A:342@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:335,342 atoms
+
+# UNSATISFIED - 238, P: 0.992, cn: 0.3409, dist: 28.6585
+distance #1/A:211@CA #1/A:459@CA color grey radius .33 symbol false dashes 0
+show #1/A:211,459 atoms
+
+# UNSATISFIED - 225, P: 0.9941, cn: 0.3401, dist: 20.1178
+distance #1/A:155@CA #1/A:173@CA color grey radius .33 symbol false dashes 0
+show #1/A:155,173 atoms
+
+# CONTACT - 231, P: 0.9933, cn: 0.3385, dist: 1.7444
+distance #1/A:41@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:41,103 atoms
+
+# CONTACT - 227, P: 0.994, cn: 0.3378, dist: 2.697
+distance #1/A:154@CA #1/A:179@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:154,179 atoms
+
+# CONTACT - 232, P: 0.9932, cn: 0.334, dist: 2.7504
+distance #1/A:263@CA #1/A:284@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:263,284 atoms
+
+# CONTACT_FAR - 233, P: 0.9928, cn: 0.3334, dist: 5.7964
+distance #1/A:258@CA #1/A:439@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:258,439 atoms
+
+# CONTACT - 234, P: 0.9926, cn: 0.3311, dist: 2.2839
+distance #1/A:292@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:292,420 atoms
+
+# CONTACT - 235, P: 0.9922, cn: 0.3297, dist: 3.5605
+distance #1/A:223@CA #1/A:434@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:223,434 atoms
+
+# UNSATISFIED - 241, P: 0.9913, cn: 0.3283, dist: 11.5978
+distance #1/A:443@CA #1/A:452@CA color grey radius .33 symbol false dashes 0
+show #1/A:443,452 atoms
+
+# CONTACT - 237, P: 0.9921, cn: 0.3276, dist: 2.9792
+distance #1/A:187@CA #1/A:439@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:187,439 atoms
+
+# UNSATISFIED - 279, P: 0.9839, cn: 0.3275, dist: 39.0087
+distance #1/A:169@CA #1/A:468@CA color grey radius .33 symbol false dashes 0
+show #1/A:169,468 atoms
+
+# CONTACT - 236, P: 0.9921, cn: 0.3273, dist: 2.4322
+distance #1/A:225@CA #1/A:232@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:225,232 atoms
+
+# CONTACT - 244, P: 0.9909, cn: 0.3265, dist: 3.4669
+distance #1/A:120@CA #1/A:140@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:120,140 atoms
+
+# CONTACT - 240, P: 0.9916, cn: 0.3249, dist: 2.9017
+distance #1/A:304@CA #1/A:416@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:304,416 atoms
+
+# CONTACT - 251, P: 0.9902, cn: 0.3246, dist: 2.8291
+distance #1/A:168@CA #1/A:201@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:168,201 atoms
+
+# CONTACT - 243, P: 0.991, cn: 0.3215, dist: 2.123
+distance #1/A:225@CA #1/A:257@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:225,257 atoms
+
+# CONTACT - 249, P: 0.9905, cn: 0.3202, dist: 3.3694
+distance #1/A:122@CA #1/A:140@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:122,140 atoms
+
+# UNSATISFIED - 242, P: 0.9911, cn: 0.32, dist: 26.7423
+distance #1/A:223@CA #1/A:272@CA color grey radius .33 symbol false dashes 0
+show #1/A:223,272 atoms
+
+# CONTACT - 248, P: 0.9906, cn: 0.3194, dist: 2.5382
+distance #1/A:335@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:335,409 atoms
+
+# CONTACT - 263, P: 0.9875, cn: 0.3183, dist: 2.1717
+distance #1/A:259@CA #1/A:397@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:259,397 atoms
+
+# UNSATISFIED - 247, P: 0.9907, cn: 0.3182, dist: 22.7522
+distance #1/A:271@CA #1/A:399@CA color grey radius .33 symbol false dashes 0
+show #1/A:271,399 atoms
+
+# CONTACT_FAR - 246, P: 0.9907, cn: 0.318, dist: 5.6697
+distance #1/A:236@CA #1/A:261@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:236,261 atoms
+
+# UNSATISFIED - 257, P: 0.9889, cn: 0.3171, dist: 8.1012
+distance #1/A:432@CA #1/A:446@CA color grey radius .33 symbol false dashes 0
+show #1/A:432,446 atoms
+
+# UNSATISFIED - 273, P: 0.9857, cn: 0.3165, dist: 31.7087
+distance #1/A:211@CA #1/A:462@CA color grey radius .33 symbol false dashes 0
+show #1/A:211,462 atoms
+
+# CONTACT - 250, P: 0.9902, cn: 0.3152, dist: 4.1885
+distance #1/A:174@CA #1/A:209@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:174,209 atoms
+
+# CONTACT_FAR - 252, P: 0.9901, cn: 0.3149, dist: 5.9622
+distance #1/A:407@CA #1/A:426@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:407,426 atoms
+
+# UNSATISFIED - 253, P: 0.9895, cn: 0.3147, dist: 11.6684
+distance #1/A:337@CA #1/A:384@CA color grey radius .33 symbol false dashes 0
+show #1/A:337,384 atoms
+
+# UNSATISFIED - 258, P: 0.9883, cn: 0.3144, dist: 28.0361
+distance #1/A:220@CA #1/A:274@CA color grey radius .33 symbol false dashes 0
+show #1/A:220,274 atoms
+
+# CONTACT - 255, P: 0.9892, cn: 0.3132, dist: 2.3326
+distance #1/A:42@CA #1/A:102@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:42,102 atoms
+
+# CONTACT - 261, P: 0.9878, cn: 0.312, dist: 2.6275
+distance #1/A:221@CA #1/A:404@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,404 atoms
+
+# CONTACT - 254, P: 0.9893, cn: 0.3114, dist: 3.3115
+distance #1/A:319@CA #1/A:376@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:319,376 atoms
+
+# CONTACT - 256, P: 0.9892, cn: 0.3107, dist: 1.7594
+distance #1/A:194@CA #1/A:213@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:194,213 atoms
+
+# UNSATISFIED - 265, P: 0.987, cn: 0.3107, dist: 15.7402
+distance #1/A:47@CA #1/A:144@CA color grey radius .33 symbol false dashes 0
+show #1/A:47,144 atoms
+
+# CONTACT - 259, P: 0.9883, cn: 0.3095, dist: 3.1447
+distance #1/A:32@CA #1/A:42@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:32,42 atoms
+
+# CONTACT - 268, P: 0.9863, cn: 0.3081, dist: 2.7475
+distance #1/A:164@CA #1/A:195@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:164,195 atoms
+
+# CONTACT - 260, P: 0.9882, cn: 0.3073, dist: 2.2499
+distance #1/A:128@CA #1/A:251@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:128,251 atoms
+
+# UNSATISFIED - 274, P: 0.9856, cn: 0.307, dist: 35.22
+distance #1/A:25@CA #1/A:162@CA color grey radius .33 symbol false dashes 0
+show #1/A:25,162 atoms
+
+# CONTACT - 267, P: 0.9866, cn: 0.3067, dist: 3.273
+distance #1/A:58@CA #1/A:113@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:58,113 atoms
+
+# CONTACT - 280, P: 0.9839, cn: 0.3042, dist: 2.1446
+distance #1/A:17@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:17,103 atoms
+
+# CONTACT - 262, P: 0.9876, cn: 0.304, dist: 2.4706
+distance #1/A:195@CA #1/A:244@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:195,244 atoms
+
+# CONTACT - 272, P: 0.9857, cn: 0.3003, dist: 2.948
+distance #1/A:42@CA #1/A:100@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:42,100 atoms
+
+# UNSATISFIED - 271, P: 0.9858, cn: 0.3003, dist: 14.483
+distance #1/A:137@CA #1/A:248@CA color grey radius .33 symbol false dashes 0
+show #1/A:137,248 atoms
+
+# CONTACT - 269, P: 0.9861, cn: 0.2997, dist: 2.3607
+distance #1/A:159@CA #1/A:237@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:159,237 atoms
+
+# UNSATISFIED - 291, P: 0.9817, cn: 0.2996, dist: 33.0596
+distance #1/A:208@CA #1/A:462@CA color grey radius .33 symbol false dashes 0
+show #1/A:208,462 atoms
+
+# UNSATISFIED - 283, P: 0.9837, cn: 0.2987, dist: 46.424
+distance #1/A:22@CA #1/A:180@CA color grey radius .33 symbol false dashes 0
+show #1/A:22,180 atoms
+
+# CONTACT - 270, P: 0.9861, cn: 0.2987, dist: 2.3453
+distance #1/A:290@CA #1/A:389@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:290,389 atoms
+
+# CONTACT - 281, P: 0.9837, cn: 0.2984, dist: 3.2027
+distance #1/A:74@CA #1/A:111@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:74,111 atoms
+
+# UNSATISFIED - 276, P: 0.9847, cn: 0.2983, dist: 12.1022
+distance #1/A:136@CA #1/A:251@CA color grey radius .33 symbol false dashes 0
+show #1/A:136,251 atoms
+
+# CONTACT - 275, P: 0.9853, cn: 0.2983, dist: 2.1153
+distance #1/A:334@CA #1/A:374@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:334,374 atoms
+
+# CONTACT - 277, P: 0.9845, cn: 0.2972, dist: 2.2853
+distance #1/A:291@CA #1/A:401@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:291,401 atoms
+
+# UNSATISFIED - 284, P: 0.9837, cn: 0.2959, dist: 31.8827
+distance #1/A:182@CA #1/A:201@CA color grey radius .33 symbol false dashes 0
+show #1/A:182,201 atoms
+
+# CONTACT - 278, P: 0.9842, cn: 0.2955, dist: 2.4726
+distance #1/A:172@CA #1/A:246@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:172,246 atoms
+
+# CONTACT - 288, P: 0.9828, cn: 0.2939, dist: 2.4883
+distance #1/A:301@CA #1/A:327@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:301,327 atoms
+
+# CONTACT - 285, P: 0.9836, cn: 0.2938, dist: 2.5613
+distance #1/A:289@CA #1/A:388@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:289,388 atoms
+
+# CONTACT - 287, P: 0.9829, cn: 0.2924, dist: 2.236
+distance #1/A:259@CA #1/A:442@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:259,442 atoms
+
+# UNSATISFIED - 282, P: 0.9837, cn: 0.2918, dist: 21.258
+distance #1/A:205@CA #1/A:270@CA color grey radius .33 symbol false dashes 0
+show #1/A:205,270 atoms
+
+# CONTACT - 286, P: 0.9834, cn: 0.2918, dist: 2.9414
+distance #1/A:319@CA #1/A:377@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:319,377 atoms
+
+# CONTACT - 295, P: 0.9799, cn: 0.2916, dist: 4.8352
+distance #1/A:260@CA #1/A:456@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:260,456 atoms
+
+# CONTACT - 289, P: 0.9822, cn: 0.2883, dist: 3.6516
+distance #1/A:85@CA #1/A:94@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:85,94 atoms
+
+# CONTACT - 292, P: 0.981, cn: 0.2867, dist: 2.3442
+distance #1/A:286@CA #1/A:388@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:286,388 atoms
+
+# CONTACT - 298, P: 0.9783, cn: 0.2866, dist: 2.4848
+distance #1/A:221@CA #1/A:427@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,427 atoms
+
+# CONTACT - 290, P: 0.9817, cn: 0.2863, dist: 2.2707
+distance #1/A:131@CA #1/A:266@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:131,266 atoms
+
+# CONTACT - 293, P: 0.9808, cn: 0.284, dist: 4.6178
+distance #1/A:225@CA #1/A:236@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:225,236 atoms
+
+# CONTACT - 297, P: 0.9788, cn: 0.2834, dist: 2.5337
+distance #1/A:255@CA #1/A:437@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:255,437 atoms
+
+# UNSATISFIED - 300, P: 0.9782, cn: 0.2823, dist: 15.5869
+distance #1/A:133@CA #1/A:226@CA color grey radius .33 symbol false dashes 0
+show #1/A:133,226 atoms
+
+# CONTACT - 299, P: 0.9782, cn: 0.2823, dist: 2.1481
+distance #1/A:316@CA #1/A:377@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:316,377 atoms
+
+# CONTACT - 294, P: 0.9806, cn: 0.282, dist: 2.1726
+distance #1/A:91@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:91,103 atoms
+
+# CONTACT - 296, P: 0.9795, cn: 0.282, dist: 2.4417
+distance #1/A:82@CA #1/A:113@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:82,113 atoms
+
+# CONTACT - 313, P: 0.9756, cn: 0.2786, dist: 2.5831
+distance #1/A:369@CA #1/A:376@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:369,376 atoms
+
+# CONTACT - 309, P: 0.9763, cn: 0.2786, dist: 1.972
+distance #1/A:210@CA #1/A:226@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:210,226 atoms
+
+# CONTACT - 301, P: 0.9781, cn: 0.2785, dist: 2.0991
+distance #1/A:293@CA #1/A:381@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:293,381 atoms
+
+# CONTACT_FAR - 304, P: 0.9776, cn: 0.2779, dist: 6.084
+distance #1/A:369@CA #1/A:380@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:369,380 atoms
+
+# CONTACT - 315, P: 0.9753, cn: 0.2775, dist: 2.4617
+distance #1/A:131@CA #1/A:267@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:131,267 atoms
+
+# CONTACT - 322, P: 0.974, cn: 0.2771, dist: 2.2219
+distance #1/A:18@CA #1/A:43@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:18,43 atoms
+
+# CONTACT - 312, P: 0.976, cn: 0.2771, dist: 4.3369
+distance #1/A:221@CA #1/A:259@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,259 atoms
+
+# CONTACT - 305, P: 0.9775, cn: 0.2769, dist: 1.8819
+distance #1/A:121@CA #1/A:141@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:121,141 atoms
+
+# CONTACT - 303, P: 0.9777, cn: 0.2769, dist: 2.7983
+distance #1/A:49@CA #1/A:100@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:49,100 atoms
+
+# CONTACT - 310, P: 0.9763, cn: 0.2768, dist: 1.7938
+distance #1/A:85@CA #1/A:110@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:85,110 atoms
+
+# UNSATISFIED - 319, P: 0.9745, cn: 0.2764, dist: 22.2401
+distance #1/A:278@CA #1/A:339@CA color grey radius .33 symbol false dashes 0
+show #1/A:278,339 atoms
+
+# CONTACT - 306, P: 0.9775, cn: 0.2764, dist: 2.6053
+distance #1/A:226@CA #1/A:251@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:226,251 atoms
+
+# CONTACT_FAR - 307, P: 0.9766, cn: 0.2763, dist: 6.7963
+distance #1/A:162@CA #1/A:180@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:162,180 atoms
+
+# CONTACT - 308, P: 0.9764, cn: 0.275, dist: 4.3015
+distance #1/A:239@CA #1/A:269@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:239,269 atoms
+
+# CONTACT - 314, P: 0.9756, cn: 0.2745, dist: 2.3419
+distance #1/A:126@CA #1/A:228@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:126,228 atoms
+
+# CONTACT - 311, P: 0.9763, cn: 0.274, dist: 4.7901
+distance #1/A:38@CA #1/A:107@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:38,107 atoms
+
+# UNSATISFIED - 302, P: 0.9777, cn: 0.2737, dist: 35.5662
+distance #1/A:218@CA #1/A:464@CA color grey radius .33 symbol false dashes 0
+show #1/A:218,464 atoms
+
+# CONTACT - 317, P: 0.9749, cn: 0.2736, dist: 3.5914
+distance #1/A:454@CA #1/A:465@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:454,465 atoms
+
+# CONTACT - 335, P: 0.9699, cn: 0.2736, dist: 3.2916
+distance #1/A:281@CA #1/A:458@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:281,458 atoms
+
+# CONTACT - 316, P: 0.9749, cn: 0.2731, dist: 2.4308
+distance #1/A:259@CA #1/A:431@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:259,431 atoms
+
+# CONTACT - 323, P: 0.9734, cn: 0.2731, dist: 2.5575
+distance #1/A:187@CA #1/A:437@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:187,437 atoms
+
+# CONTACT - 318, P: 0.9747, cn: 0.2727, dist: 4.5818
+distance #1/A:88@CA #1/A:103@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:88,103 atoms
+
+# CONTACT - 336, P: 0.9698, cn: 0.2725, dist: 2.4733
+distance #1/A:281@CA #1/A:457@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:281,457 atoms
+
+# CONTACT - 320, P: 0.9744, cn: 0.2719, dist: 2.42
+distance #1/A:407@CA #1/A:423@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:407,423 atoms
+
+# CONTACT - 330, P: 0.9718, cn: 0.2717, dist: 2.4615
+distance #1/A:226@CA #1/A:253@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:226,253 atoms
+
+# CONTACT - 321, P: 0.9741, cn: 0.2712, dist: 2.2357
+distance #1/A:82@CA #1/A:111@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:82,111 atoms
+
+# CONTACT_FAR - 326, P: 0.9729, cn: 0.2708, dist: 6.6522
+distance #1/A:350@CA #1/A:356@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:350,356 atoms
+
+# CONTACT - 337, P: 0.9697, cn: 0.2702, dist: 2.7524
+distance #1/A:177@CA #1/A:237@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:177,237 atoms
+
+# UNSATISFIED - 324, P: 0.973, cn: 0.2681, dist: 21.943
+distance #1/A:275@CA #1/A:399@CA color grey radius .33 symbol false dashes 0
+show #1/A:275,399 atoms
+
+# UNSATISFIED - 325, P: 0.9729, cn: 0.2681, dist: 15.9179
+distance #1/A:340@CA #1/A:391@CA color grey radius .33 symbol false dashes 0
+show #1/A:340,391 atoms
+
+# CONTACT_FAR - 332, P: 0.971, cn: 0.2679, dist: 7.2363
+distance #1/A:18@CA #1/A:31@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:18,31 atoms
+
+# CONTACT - 328, P: 0.9724, cn: 0.2674, dist: 2.9181
+distance #1/A:287@CA #1/A:392@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:287,392 atoms
+
+# CONTACT - 329, P: 0.9724, cn: 0.267, dist: 4.3251
+distance #1/A:32@CA #1/A:59@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:32,59 atoms
+
+# CONTACT - 327, P: 0.9725, cn: 0.2669, dist: 3.0019
+distance #1/A:293@CA #1/A:384@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:293,384 atoms
+
+# UNSATISFIED - 334, P: 0.9701, cn: 0.2662, dist: 11.4374
+distance #1/A:142@CA #1/A:152@CA color grey radius .33 symbol false dashes 0
+show #1/A:142,152 atoms
+
+# CONTACT - 331, P: 0.9713, cn: 0.2655, dist: 2.6747
+distance #1/A:49@CA #1/A:115@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:49,115 atoms
+
+# CONTACT_FAR - 358, P: 0.9585, cn: 0.2647, dist: 5.9723
+distance #1/A:14@CA #1/A:29@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:14,29 atoms
+
+# CONTACT - 340, P: 0.9685, cn: 0.2645, dist: 2.3706
+distance #1/A:304@CA #1/A:417@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:304,417 atoms
+
+# UNSATISFIED - 347, P: 0.9637, cn: 0.264, dist: 21.0157
+distance #1/A:271@CA #1/A:396@CA color grey radius .33 symbol false dashes 0
+show #1/A:271,396 atoms
+
+# UNSATISFIED - 394, P: 0.9427, cn: 0.2628, dist: 8.053
+distance #1/A:182@CA #1/A:469@CA color grey radius .33 symbol false dashes 0
+show #1/A:182,469 atoms
+
+# CONTACT - 333, P: 0.9705, cn: 0.2628, dist: 2.3712
+distance #1/A:225@CA #1/A:261@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:225,261 atoms
+
+# CONTACT - 338, P: 0.9692, cn: 0.2622, dist: 4.2884
+distance #1/A:345@CA #1/A:353@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:345,353 atoms
+
+# CONTACT - 341, P: 0.968, cn: 0.2616, dist: 3.6198
+distance #1/A:150@CA #1/A:234@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:150,234 atoms
+
+# CONTACT - 342, P: 0.9679, cn: 0.2612, dist: 4.1189
+distance #1/A:220@CA #1/A:403@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:220,403 atoms
+
+# CONTACT - 345, P: 0.9648, cn: 0.2609, dist: 3.1146
+distance #1/A:40@CA #1/A:102@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:40,102 atoms
+
+# CONTACT_FAR - 339, P: 0.9691, cn: 0.2609, dist: 7.7272
+distance #1/A:345@CA #1/A:355@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:345,355 atoms
+
+# CONTACT - 343, P: 0.966, cn: 0.2604, dist: 2.6826
+distance #1/A:143@CA #1/A:173@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:143,173 atoms
+
+# CONTACT_FAR - 361, P: 0.9558, cn: 0.2601, dist: 5.3765
+distance #1/A:280@CA #1/A:455@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:280,455 atoms
+
+# CONTACT - 346, P: 0.9638, cn: 0.2596, dist: 4.2804
+distance #1/A:190@CA #1/A:438@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:190,438 atoms
+
+# UNSATISFIED - 350, P: 0.9633, cn: 0.2589, dist: 32.0452
+distance #1/A:25@CA #1/A:175@CA color grey radius .33 symbol false dashes 0
+show #1/A:25,175 atoms
+
+# CONTACT - 368, P: 0.9531, cn: 0.2579, dist: 2.7652
+distance #1/A:273@CA #1/A:461@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:273,461 atoms
+
+# CONTACT - 349, P: 0.9634, cn: 0.2579, dist: 2.5956
+distance #1/A:43@CA #1/A:95@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:43,95 atoms
+
+# UNSATISFIED - 344, P: 0.9649, cn: 0.2566, dist: 25.2565
+distance #1/A:204@CA #1/A:238@CA color grey radius .33 symbol false dashes 0
+show #1/A:204,238 atoms
+
+# CONTACT - 348, P: 0.9636, cn: 0.2566, dist: 1.8348
+distance #1/A:175@CA #1/A:245@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:175,245 atoms
+
+# UNSATISFIED - 362, P: 0.9554, cn: 0.2566, dist: 11.7362
+distance #1/A:71@CA #1/A:84@CA color grey radius .33 symbol false dashes 0
+show #1/A:71,84 atoms
+
+# UNSATISFIED - 354, P: 0.9603, cn: 0.255, dist: 27.9126
+distance #1/A:274@CA #1/A:403@CA color grey radius .33 symbol false dashes 0
+show #1/A:274,403 atoms
+
+# CONTACT - 352, P: 0.9623, cn: 0.2541, dist: 2.5181
+distance #1/A:263@CA #1/A:392@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:263,392 atoms
+
+# CONTACT - 353, P: 0.9607, cn: 0.2532, dist: 4.1592
+distance #1/A:259@CA #1/A:287@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:259,287 atoms
+
+# CONTACT - 428, P: 0.9205, cn: 0.2529, dist: 4.8358
+distance #1/A:13@CA #1/A:88@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:13,88 atoms
+
+# CONTACT_FAR - 351, P: 0.9626, cn: 0.2527, dist: 6.7885
+distance #1/A:370@CA #1/A:376@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:370,376 atoms
+
+# CONTACT_FAR - 356, P: 0.9592, cn: 0.2515, dist: 7.6588
+distance #1/A:89@CA #1/A:171@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:89,171 atoms
+
+# CONTACT - 363, P: 0.955, cn: 0.2507, dist: 3.6935
+distance #1/A:86@CA #1/A:108@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:86,108 atoms
+
+# UNSATISFIED - 379, P: 0.948, cn: 0.2505, dist: 38.8506
+distance #1/A:200@CA #1/A:462@CA color grey radius .33 symbol false dashes 0
+show #1/A:200,462 atoms
+
+# UNSATISFIED - 355, P: 0.96, cn: 0.2501, dist: 18.5519
+distance #1/A:28@CA #1/A:81@CA color grey radius .33 symbol false dashes 0
+show #1/A:28,81 atoms
+
+# UNSATISFIED - 357, P: 0.9587, cn: 0.2483, dist: 11.3521
+distance #1/A:116@CA #1/A:173@CA color grey radius .33 symbol false dashes 0
+show #1/A:116,173 atoms
+
+# CONTACT - 367, P: 0.9531, cn: 0.2477, dist: 2.0006
+distance #1/A:124@CA #1/A:138@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:124,138 atoms
+
+# CONTACT - 384, P: 0.9471, cn: 0.2476, dist: 2.8373
+distance #1/A:38@CA #1/A:105@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:38,105 atoms
+
+# CONTACT - 371, P: 0.95, cn: 0.2475, dist: 2.1911
+distance #1/A:159@CA #1/A:177@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:159,177 atoms
+
+# CONTACT - 359, P: 0.9572, cn: 0.2473, dist: 2.2516
+distance #1/A:294@CA #1/A:409@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:294,409 atoms
+
+# CONTACT - 364, P: 0.9549, cn: 0.2469, dist: 1.85
+distance #1/A:216@CA #1/A:223@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:216,223 atoms
+
+# CONTACT - 360, P: 0.9563, cn: 0.2456, dist: 3.9727
+distance #1/A:205@CA #1/A:246@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:205,246 atoms
+
+# CONTACT - 366, P: 0.9536, cn: 0.2443, dist: 2.7091
+distance #1/A:298@CA #1/A:413@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:298,413 atoms
+
+# UNSATISFIED - 404, P: 0.9317, cn: 0.2438, dist: 18.4508
+distance #1/A:449@CA #1/A:470@CA color grey radius .33 symbol false dashes 0
+show #1/A:449,470 atoms
+
+# CONTACT - 365, P: 0.9536, cn: 0.2432, dist: 2.9397
+distance #1/A:166@CA #1/A:198@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:166,198 atoms
+
+# CONTACT - 388, P: 0.9454, cn: 0.2432, dist: 1.7526
+distance #1/A:129@CA #1/A:232@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:129,232 atoms
+
+# CONTACT - 369, P: 0.9517, cn: 0.243, dist: 3.3295
+distance #1/A:77@CA #1/A:113@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:77,113 atoms
+
+# CONTACT - 375, P: 0.9492, cn: 0.2424, dist: 2.1337
+distance #1/A:213@CA #1/A:224@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:213,224 atoms
+
+# CONTACT - 389, P: 0.9452, cn: 0.2423, dist: 2.272
+distance #1/A:277@CA #1/A:458@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:277,458 atoms
+
+# CONTACT_FAR - 370, P: 0.9513, cn: 0.2414, dist: 6.5264
+distance #1/A:366@CA #1/A:376@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:366,376 atoms
+
+# UNSATISFIED - 376, P: 0.9491, cn: 0.24, dist: 9.4894
+distance #1/A:130@CA #1/A:351@CA color grey radius .33 symbol false dashes 0
+show #1/A:130,351 atoms
+
+# CONTACT - 382, P: 0.9472, cn: 0.2399, dist: 2.235
+distance #1/A:198@CA #1/A:212@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:198,212 atoms
+
+# CONTACT_FAR - 385, P: 0.9468, cn: 0.2398, dist: 6.414
+distance #1/A:443@CA #1/A:449@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:443,449 atoms
+
+# CONTACT - 380, P: 0.9474, cn: 0.2387, dist: 2.3893
+distance #1/A:206@CA #1/A:253@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:206,253 atoms
+
+# UNSATISFIED - 390, P: 0.9441, cn: 0.2387, dist: 8.5702
+distance #1/A:345@CA #1/A:351@CA color grey radius .33 symbol false dashes 0
+show #1/A:345,351 atoms
+
+# CONTACT_FAR - 391, P: 0.9437, cn: 0.2386, dist: 6.0906
+distance #1/A:128@CA #1/A:138@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:128,138 atoms
+
+# CONTACT_FAR - 374, P: 0.9494, cn: 0.2385, dist: 6.0774
+distance #1/A:335@CA #1/A:402@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:335,402 atoms
+
+# CONTACT - 373, P: 0.9498, cn: 0.2383, dist: 2.5681
+distance #1/A:222@CA #1/A:441@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:222,441 atoms
+
+# UNSATISFIED - 408, P: 0.9302, cn: 0.2381, dist: 11.3896
+distance #1/A:452@CA #1/A:469@CA color grey radius .33 symbol false dashes 0
+show #1/A:452,469 atoms
+
+# CONTACT - 386, P: 0.9463, cn: 0.2376, dist: 1.6937
+distance #1/A:215@CA #1/A:435@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:215,435 atoms
+
+# CONTACT - 372, P: 0.9498, cn: 0.2375, dist: 2.7217
+distance #1/A:307@CA #1/A:417@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:307,417 atoms
+
+# CONTACT_FAR - 396, P: 0.9403, cn: 0.2372, dist: 6.4652
+distance #1/A:47@CA #1/A:118@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:47,118 atoms
+
+# UNSATISFIED - 381, P: 0.9473, cn: 0.2368, dist: 22.1706
+distance #1/A:133@CA #1/A:206@CA color grey radius .33 symbol false dashes 0
+show #1/A:133,206 atoms
+
+# UNSATISFIED - 387, P: 0.9454, cn: 0.2364, dist: 21.2749
+distance #1/A:153@CA #1/A:172@CA color grey radius .33 symbol false dashes 0
+show #1/A:153,172 atoms
+
+# CONTACT - 378, P: 0.9486, cn: 0.2362, dist: 2.9999
+distance #1/A:219@CA #1/A:434@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:219,434 atoms
+
+# CONTACT - 395, P: 0.9412, cn: 0.2352, dist: 2.6611
+distance #1/A:319@CA #1/A:375@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:319,375 atoms
+
+# CONTACT_FAR - 383, P: 0.9472, cn: 0.2334, dist: 6.1857
+distance #1/A:61@CA #1/A:78@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:61,78 atoms
+
+# CONTACT_FAR - 377, P: 0.9489, cn: 0.2333, dist: 7.6499
+distance #1/A:445@CA #1/A:457@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:445,457 atoms
+
+# CONTACT - 417, P: 0.9246, cn: 0.2325, dist: 3.4354
+distance #1/A:16@CA #1/A:92@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:16,92 atoms
+
+# CONTACT_FAR - 392, P: 0.9434, cn: 0.2321, dist: 5.8828
+distance #1/A:408@CA #1/A:424@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:408,424 atoms
+
+# CONTACT - 413, P: 0.9266, cn: 0.2307, dist: 3.2033
+distance #1/A:263@CA #1/A:397@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:263,397 atoms
+
+# UNSATISFIED - 393, P: 0.9428, cn: 0.23, dist: 10.2578
+distance #1/A:63@CA #1/A:78@CA color grey radius .33 symbol false dashes 0
+show #1/A:63,78 atoms
+
+# UNSATISFIED - 397, P: 0.9386, cn: 0.2296, dist: 17.862
+distance #1/A:153@CA #1/A:248@CA color grey radius .33 symbol false dashes 0
+show #1/A:153,248 atoms
+
+# CONTACT - 401, P: 0.9338, cn: 0.2292, dist: 2.3611
+distance #1/A:221@CA #1/A:430@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:221,430 atoms
+
+# CONTACT - 398, P: 0.9381, cn: 0.2292, dist: 4.6605
+distance #1/A:52@CA #1/A:117@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:52,117 atoms
+
+# CONTACT - 405, P: 0.9316, cn: 0.229, dist: 1.8393
+distance #1/A:164@CA #1/A:174@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:164,174 atoms
+
+# CONTACT - 399, P: 0.9376, cn: 0.2287, dist: 2.927
+distance #1/A:291@CA #1/A:427@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:291,427 atoms
+
+# CONTACT - 402, P: 0.9324, cn: 0.2286, dist: 4.415
+distance #1/A:389@CA #1/A:398@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:389,398 atoms
+
+# UNSATISFIED - 437, P: 0.9171, cn: 0.2286, dist: 37.7846
+distance #1/A:212@CA #1/A:463@CA color grey radius .33 symbol false dashes 0
+show #1/A:212,463 atoms
+
+# CONTACT - 409, P: 0.9297, cn: 0.228, dist: 2.7134
+distance #1/A:264@CA #1/A:280@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:264,280 atoms
+
+# CONTACT - 400, P: 0.9376, cn: 0.2273, dist: 2.5091
+distance #1/A:210@CA #1/A:253@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:210,253 atoms
+
+# UNSATISFIED - 451, P: 0.9052, cn: 0.2271, dist: 11.0075
+distance #1/A:70@CA #1/A:84@CA color grey radius .33 symbol false dashes 0
+show #1/A:70,84 atoms
+
+# UNSATISFIED - 420, P: 0.9233, cn: 0.227, dist: 42.1625
+distance #1/A:20@CA #1/A:158@CA color grey radius .33 symbol false dashes 0
+show #1/A:20,158 atoms
+
+# CONTACT_FAR - 403, P: 0.932, cn: 0.2262, dist: 5.9337
+distance #1/A:85@CA #1/A:101@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:85,101 atoms
+
+# CONTACT_FAR - 419, P: 0.9233, cn: 0.2256, dist: 6.8922
+distance #1/A:17@CA #1/A:29@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:17,29 atoms
+
+# CONTACT - 414, P: 0.9255, cn: 0.2251, dist: 2.6009
+distance #1/A:21@CA #1/A:95@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:21,95 atoms
+
+# UNSATISFIED - 427, P: 0.9212, cn: 0.2244, dist: 30.6637
+distance #1/A:25@CA #1/A:147@CA color grey radius .33 symbol false dashes 0
+show #1/A:25,147 atoms
+
+# CONTACT - 407, P: 0.9304, cn: 0.2237, dist: 1.754
+distance #1/A:339@CA #1/A:402@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:339,402 atoms
+
+# UNSATISFIED - 412, P: 0.9276, cn: 0.2233, dist: 9.2575
+distance #1/A:162@CA #1/A:196@CA color grey radius .33 symbol false dashes 0
+show #1/A:162,196 atoms
+
+# CONTACT - 410, P: 0.9295, cn: 0.2221, dist: 2.4304
+distance #1/A:138@CA #1/A:228@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:138,228 atoms
+
+# CONTACT - 411, P: 0.9291, cn: 0.2214, dist: 2.8134
+distance #1/A:226@CA #1/A:394@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:226,394 atoms
+
+# CONTACT_FAR - 406, P: 0.931, cn: 0.221, dist: 5.9505
+distance #1/A:355@CA #1/A:361@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:355,361 atoms
+
+# CONTACT - 425, P: 0.9216, cn: 0.2199, dist: 2.7696
+distance #1/A:139@CA #1/A:252@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:139,252 atoms
+
+# CONTACT - 418, P: 0.924, cn: 0.2193, dist: 2.5672
+distance #1/A:392@CA #1/A:398@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:392,398 atoms
+
+# CONTACT - 421, P: 0.9232, cn: 0.2193, dist: 2.2155
+distance #1/A:135@CA #1/A:153@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:135,153 atoms
+
+# CONTACT - 424, P: 0.9228, cn: 0.2187, dist: 4.9465
+distance #1/A:190@CA #1/A:215@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:190,215 atoms
+
+# CONTACT - 416, P: 0.9249, cn: 0.2187, dist: 2.4668
+distance #1/A:166@CA #1/A:209@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:166,209 atoms
+
+# CONTACT - 429, P: 0.92, cn: 0.2182, dist: 2.0758
+distance #1/A:143@CA #1/A:247@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:143,247 atoms
+
+# CONTACT_FAR - 415, P: 0.9255, cn: 0.2181, dist: 5.9437
+distance #1/A:407@CA #1/A:427@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:407,427 atoms
+
+# CONTACT - 422, P: 0.9232, cn: 0.218, dist: 2.2694
+distance #1/A:209@CA #1/A:246@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:209,246 atoms
+
+# CONTACT - 433, P: 0.9188, cn: 0.2175, dist: 2.5589
+distance #1/A:237@CA #1/A:243@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:237,243 atoms
+
+# CONTACT - 423, P: 0.923, cn: 0.2175, dist: 4.1111
+distance #1/A:191@CA #1/A:213@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:191,213 atoms
+
+# CONTACT_FAR - 436, P: 0.9178, cn: 0.2169, dist: 6.8153
+distance #1/A:97@CA #1/A:171@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:97,171 atoms
+
+# CONTACT - 426, P: 0.9215, cn: 0.2165, dist: 2.4078
+distance #1/A:295@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:295,420 atoms
+
+# UNSATISFIED - 445, P: 0.9134, cn: 0.2152, dist: 8.1135
+distance #1/A:455@CA #1/A:465@CA color grey radius .33 symbol false dashes 0
+show #1/A:455,465 atoms
+
+# CONTACT - 430, P: 0.9199, cn: 0.2148, dist: 2.2405
+distance #1/A:289@CA #1/A:384@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:289,384 atoms
+
+# CONTACT - 446, P: 0.9124, cn: 0.2145, dist: 2.3553
+distance #1/A:123@CA #1/A:149@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:123,149 atoms
+
+# CONTACT - 434, P: 0.9185, cn: 0.2137, dist: 3.6413
+distance #1/A:408@CA #1/A:420@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:408,420 atoms
+
+# UNSATISFIED - 439, P: 0.9164, cn: 0.2135, dist: 23.5803
+distance #1/A:48@CA #1/A:152@CA color grey radius .33 symbol false dashes 0
+show #1/A:48,152 atoms
+
+# UNSATISFIED - 431, P: 0.9197, cn: 0.2134, dist: 15.6621
+distance #1/A:51@CA #1/A:81@CA color grey radius .33 symbol false dashes 0
+show #1/A:51,81 atoms
+
+# UNSATISFIED - 441, P: 0.9158, cn: 0.2134, dist: 21.1795
+distance #1/A:204@CA #1/A:234@CA color grey radius .33 symbol false dashes 0
+show #1/A:204,234 atoms
+
+# UNSATISFIED - 432, P: 0.9193, cn: 0.2132, dist: 26.4954
+distance #1/A:156@CA #1/A:171@CA color grey radius .33 symbol false dashes 0
+show #1/A:156,171 atoms
+
+# CONTACT - 435, P: 0.918, cn: 0.2128, dist: 2.1373
+distance #1/A:195@CA #1/A:209@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:195,209 atoms
+
+# CONTACT - 438, P: 0.9164, cn: 0.2124, dist: 2.857
+distance #1/A:200@CA #1/A:208@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:200,208 atoms
+
+# UNSATISFIED - 443, P: 0.9135, cn: 0.2123, dist: 33.0507
+distance #1/A:169@CA #1/A:238@CA color grey radius .33 symbol false dashes 0
+show #1/A:169,238 atoms
+
+# UNSATISFIED - 440, P: 0.9158, cn: 0.2109, dist: 23.512
+distance #1/A:204@CA #1/A:235@CA color grey radius .33 symbol false dashes 0
+show #1/A:204,235 atoms
+
+# CONTACT_FAR - 444, P: 0.9135, cn: 0.2109, dist: 6.7485
+distance #1/A:97@CA #1/A:165@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:97,165 atoms
+
+# CONTACT - 447, P: 0.9118, cn: 0.2103, dist: 2.5137
+distance #1/A:70@CA #1/A:107@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:70,107 atoms
+
+# UNSATISFIED - 442, P: 0.9137, cn: 0.2097, dist: 22.1802
+distance #1/A:208@CA #1/A:235@CA color grey radius .33 symbol false dashes 0
+show #1/A:208,235 atoms
+
+# CONTACT - 449, P: 0.9096, cn: 0.2092, dist: 3.5607
+distance #1/A:176@CA #1/A:188@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:176,188 atoms
+
+# CONTACT - 448, P: 0.9116, cn: 0.2084, dist: 1.7928
+distance #1/A:32@CA #1/A:40@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:32,40 atoms
+
+# CONTACT - 454, P: 0.9042, cn: 0.2069, dist: 2.9418
+distance #1/A:334@CA #1/A:378@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:334,378 atoms
+
+# UNSATISFIED - 453, P: 0.9048, cn: 0.2069, dist: 10.0318
+distance #1/A:356@CA #1/A:386@CA color grey radius .33 symbol false dashes 0
+show #1/A:356,386 atoms
+
+# CONTACT - 450, P: 0.9053, cn: 0.2054, dist: 1.8092
+distance #1/A:244@CA #1/A:253@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/A:244,253 atoms
+
+# CONTACT_FAR - 455, P: 0.901, cn: 0.2053, dist: 6.6705
+distance #1/A:127@CA #1/A:350@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:127,350 atoms
+
+# UNSATISFIED - 452, P: 0.905, cn: 0.205, dist: 26.4911
+distance #1/A:154@CA #1/A:170@CA color grey radius .33 symbol false dashes 0
+show #1/A:154,170 atoms
+
+# CONTACT_FAR - 456, P: 0.9007, cn: 0.2037, dist: 6.3488
+distance #1/A:242@CA #1/A:437@CA color #6495ED radius .33 symbol false dashes 0
+show #1/A:242,437 atoms
+hide H

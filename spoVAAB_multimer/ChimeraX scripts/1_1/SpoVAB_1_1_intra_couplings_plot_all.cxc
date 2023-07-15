@@ -1,0 +1,102 @@
+# ChimeraX script: Plot monomer couplings on SpoVAB in 1:1 SpoVAA-VAB complex
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# CONTACT_MONOMER - 1, P: 1.0, cn: 0.3194, dist: 1.7736
+distance #1/B:42@CA #1/B:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:42,49 atoms
+
+# CONTACT_MONOMER - 13, P: 1.0, cn: 0.1849, dist: 2.5605
+distance #1/B:40@CA #1/B:49@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:40,49 atoms
+
+# CONTACT_MONOMER - 31, P: 0.9997, cn: 0.1232, dist: 2.8128
+distance #1/B:23@CA #1/B:57@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:23,57 atoms
+
+# CONTACT_MONOMER - 36, P: 0.9996, cn: 0.1208, dist: 3.3751
+distance #1/B:102@CA #1/B:119@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:102,119 atoms
+
+# CONTACT_MONOMER - 40, P: 0.999, cn: 0.1146, dist: 2.4613
+distance #1/B:33@CA #1/B:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:33,53 atoms
+
+# UNSATISFIED_MONOMER - 51, P: 0.9943, cn: 0.103, dist: 11.0859
+distance #1/B:30@CA #1/B:101@CA color grey radius .33 symbol false dashes 0
+show #1/B:30,101 atoms
+
+# UNSATISFIED_MONOMER - 52, P: 0.9931, cn: 0.1015, dist: 8.5615
+distance #1/B:21@CA #1/B:57@CA color grey radius .33 symbol false dashes 0
+show #1/B:21,57 atoms
+
+# UNSATISFIED_MONOMER - 56, P: 0.9918, cn: 0.1003, dist: 22.6807
+distance #1/B:31@CA #1/B:64@CA color grey radius .33 symbol false dashes 0
+show #1/B:31,64 atoms
+
+# UNSATISFIED_MONOMER - 66, P: 0.9825, cn: 0.0944, dist: 32.4689
+distance #1/B:71@CA #1/B:124@CA color grey radius .33 symbol false dashes 0
+show #1/B:71,124 atoms
+
+# CONTACT_MONOMER - 68, P: 0.9816, cn: 0.0941, dist: 2.3597
+distance #1/B:27@CA #1/B:53@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:27,53 atoms
+
+# UNSATISFIED_MONOMER - 72, P: 0.9799, cn: 0.0933, dist: 29.5582
+distance #1/B:83@CA #1/B:111@CA color grey radius .33 symbol false dashes 0
+show #1/B:83,111 atoms
+
+# UNSATISFIED_MONOMER - 73, P: 0.9769, cn: 0.0922, dist: 8.1439
+distance #1/B:39@CA #1/B:93@CA color grey radius .33 symbol false dashes 0
+show #1/B:39,93 atoms
+
+# UNSATISFIED_MONOMER - 79, P: 0.9737, cn: 0.0911, dist: 29.0761
+distance #1/B:40@CA #1/B:67@CA color grey radius .33 symbol false dashes 0
+show #1/B:40,67 atoms
+
+# CONTACT_FAR_MONOMER - 82, P: 0.9725, cn: 0.0907, dist: 6.4109
+distance #1/B:73@CA #1/B:79@CA color #6495ED radius .33 symbol false dashes 0
+show #1/B:73,79 atoms
+
+# CONTACT_MONOMER - 93, P: 0.9637, cn: 0.0884, dist: 2.3965
+distance #1/B:105@CA #1/B:118@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:105,118 atoms
+
+# UNSATISFIED_MONOMER - 108, P: 0.9449, cn: 0.0846, dist: 15.2413
+distance #1/B:32@CA #1/B:130@CA color grey radius .33 symbol false dashes 0
+show #1/B:32,130 atoms
+
+# CONTACT_FAR_MONOMER - 111, P: 0.9419, cn: 0.0841, dist: 6.6424
+distance #1/B:4@CA #1/B:11@CA color #6495ED radius .33 symbol false dashes 0
+show #1/B:4,11 atoms
+
+# UNSATISFIED_MONOMER - 114, P: 0.936, cn: 0.0832, dist: 9.0083
+distance #1/B:25@CA #1/B:95@CA color grey radius .33 symbol false dashes 0
+show #1/B:25,95 atoms
+
+# CONTACT_FAR_MONOMER - 115, P: 0.9351, cn: 0.0831, dist: 5.6893
+distance #1/B:27@CA #1/B:57@CA color #6495ED radius .33 symbol false dashes 0
+show #1/B:27,57 atoms
+
+# UNSATISFIED_MONOMER - 123, P: 0.9252, cn: 0.0817, dist: 21.4338
+distance #1/B:24@CA #1/B:101@CA color grey radius .33 symbol false dashes 0
+show #1/B:24,101 atoms
+
+# CONTACT_MONOMER - 126, P: 0.9214, cn: 0.0812, dist: 4.9538
+distance #1/B:26@CA #1/B:32@CA color #B6D4E9 radius .33 symbol false dashes 0
+show #1/B:26,32 atoms
+
+# UNSATISFIED_MONOMER - 134, P: 0.9104, cn: 0.0799, dist: 46.3809
+distance #1/B:14@CA #1/B:110@CA color grey radius .33 symbol false dashes 0
+show #1/B:14,110 atoms
+
+# UNSATISFIED_MONOMER - 138, P: 0.9041, cn: 0.0792, dist: 11.0352
+distance #1/B:26@CA #1/B:36@CA color grey radius .33 symbol false dashes 0
+show #1/B:26,36 atoms
+
+hide H
