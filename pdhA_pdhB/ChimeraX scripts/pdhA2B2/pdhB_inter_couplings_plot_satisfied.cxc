@@ -1,0 +1,145 @@
+# ChimeraX script: Plot inter couplings on pdhB in pdhA2B2
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# CONTACT_MULTIMER - 101, P: 1.0, cn: 0.6287, dist: 2.0286
+distance #1/C:278@CA #1/D:289@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:278@CA #1/C:289@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:278,289 atoms
+
+# CONTACT_MULTIMER - 195, P: 1.0, cn: 0.4857, dist: 2.5938
+distance #1/C:272@CA #1/D:291@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:272@CA #1/C:291@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:272,291 atoms
+
+# CONTACT_MULTIMER - 200, P: 1.0, cn: 0.4797, dist: 2.8212
+distance #1/C:91@CA #1/D:136@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:91@CA #1/C:136@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:91,136 atoms
+
+# CONTACT_MULTIMER - 201, P: 1.0, cn: 0.4787, dist: 2.8559
+distance #1/C:279@CA #1/D:290@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:279@CA #1/C:290@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:279,290 atoms
+
+# CONTACT_MULTIMER - 208, P: 1.0, cn: 0.4696, dist: 1.7624
+distance #1/C:279@CA #1/D:291@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:279@CA #1/C:291@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:279,291 atoms
+
+# CONTACT_MULTIMER - 282, P: 1.0, cn: 0.4058, dist: 1.9989
+distance #1/C:265@CA #1/D:279@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:265@CA #1/C:279@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:265,279 atoms
+
+# CONTACT_MULTIMER - 326, P: 1.0, cn: 0.3745, dist: 2.8411
+distance #1/C:275@CA #1/D:291@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:275@CA #1/C:291@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:275,291 atoms
+
+# CONTACT_MULTIMER - 346, P: 1.0, cn: 0.3578, dist: 1.911
+distance #1/C:138@CA #1/D:266@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:138@CA #1/C:266@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:138,266 atoms
+
+# CONTACT_MULTIMER - 390, P: 1.0, cn: 0.3357, dist: 3.0868
+distance #1/C:88@CA #1/D:96@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:88@CA #1/C:96@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:88,96 atoms
+
+# CONTACT_MULTIMER - 448, P: 1.0, cn: 0.31, dist: 1.7607
+distance #1/C:100@CA #1/D:131@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:100@CA #1/C:131@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:100,131 atoms
+
+# CONTACT_MULTIMER - 468, P: 1.0, cn: 0.2994, dist: 2.9775
+distance #1/C:240@CA #1/D:266@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:240@CA #1/C:266@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:240,266 atoms
+
+# CONTACT_MULTIMER - 503, P: 1.0, cn: 0.2858, dist: 4.7999
+distance #1/C:95@CA #1/D:136@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:95@CA #1/C:136@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:95,136 atoms
+
+# CONTACT_MULTIMER - 571, P: 1.0, cn: 0.2621, dist: 3.8528
+distance #1/C:97@CA #1/D:128@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:97@CA #1/C:128@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:97,128 atoms
+
+# CONTACT_MULTIMER - 574, P: 1.0, cn: 0.2615, dist: 3.12
+distance #1/C:103@CA #1/D:297@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:103@CA #1/C:297@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:103,297 atoms
+
+# CONTACT_MULTIMER - 576, P: 1.0, cn: 0.26, dist: 2.8693
+distance #1/C:88@CA #1/D:95@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:88@CA #1/C:95@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:88,95 atoms
+
+# CONTACT_MULTIMER - 625, P: 1.0, cn: 0.2449, dist: 1.8065
+distance #1/C:104@CA #1/D:127@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:104@CA #1/C:127@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:104,127 atoms
+
+# CONTACT_MULTIMER - 691, P: 0.9997, cn: 0.23, dist: 3.7483
+distance #1/C:266@CA #1/D:272@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:266@CA #1/C:272@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:266,272 atoms
+
+# CONTACT_MULTIMER - 733, P: 0.9993, cn: 0.2208, dist: 4.6192
+distance #1/C:139@CA #1/D:264@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:139@CA #1/C:264@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:139,264 atoms
+
+# CONTACT_MULTIMER - 773, P: 0.9979, cn: 0.2115, dist: 2.8937
+distance #1/C:104@CA #1/D:128@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:104@CA #1/C:128@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:104,128 atoms
+
+# CONTACT_MULTIMER - 901, P: 0.9836, cn: 0.1909, dist: 4.5614
+distance #1/C:133@CA #1/D:140@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:133@CA #1/C:140@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:133,140 atoms
+
+# CONTACT_MULTIMER - 915, P: 0.9804, cn: 0.189, dist: 3.402
+distance #1/C:265@CA #1/D:280@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:265@CA #1/C:280@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:265,280 atoms
+
+# CONTACT_MULTIMER - 921, P: 0.9788, cn: 0.1882, dist: 4.7333
+distance #1/C:89@CA #1/D:97@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:89@CA #1/C:97@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:89,97 atoms
+
+# CONTACT_MULTIMER - 932, P: 0.975, cn: 0.1864, dist: 2.689
+distance #1/C:96@CA #1/D:128@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:96@CA #1/C:128@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:96,128 atoms
+
+# CONTACT_MULTIMER - 962, P: 0.9617, cn: 0.1817, dist: 2.4728
+distance #1/C:100@CA #1/D:128@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:100@CA #1/C:128@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:100,128 atoms
+
+# CONTACT_MULTIMER - 996, P: 0.9464, cn: 0.1779, dist: 1.8641
+distance #1/C:265@CA #1/D:276@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:265@CA #1/C:276@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:265,276 atoms
+
+# CONTACT_MULTIMER - 1004, P: 0.9416, cn: 0.1769, dist: 2.9312
+distance #1/C:88@CA #1/D:140@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:88@CA #1/C:140@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:88,140 atoms
+
+# CONTACT_MULTIMER - 1022, P: 0.9298, cn: 0.1748, dist: 4.9465
+distance #1/C:278@CA #1/D:290@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/D:278@CA #1/C:290@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/C,D:278,290 atoms
+
+hide H

@@ -1,0 +1,22 @@
+# ChimeraX script: Plot couplings between pdhAB in multimeric pdhA3B3
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAC-SpoVA P>0.9 sorted by cn-score
+# UNSATISFIED_INTER - 959, P: 0.9635, cn: 0.1823, dist: 9.8088
+distance #1/A:278@CA #1/D:125@CA color grey radius .33 symbol false dashes 0
+distance #1/A:278@CA #1/E:125@CA color grey radius .33 symbol false dashes 0
+distance #1/A:278@CA #1/F:125@CA color grey radius .33 symbol false dashes 0
+distance #1/B:278@CA #1/D:125@CA color grey radius .33 symbol false dashes 0
+distance #1/B:278@CA #1/E:125@CA color grey radius .33 symbol false dashes 0
+distance #1/B:278@CA #1/F:125@CA color grey radius .33 symbol false dashes 0
+distance #1/C:278@CA #1/D:125@CA color grey radius .33 symbol false dashes 0
+distance #1/C:278@CA #1/E:125@CA color grey radius .33 symbol false dashes 0
+distance #1/C:278@CA #1/F:125@CA color grey radius .33 symbol false dashes 0
+show #1/A,B,C:278,278 atoms
+show #1/D,E,F:125,125 atoms
+hide H

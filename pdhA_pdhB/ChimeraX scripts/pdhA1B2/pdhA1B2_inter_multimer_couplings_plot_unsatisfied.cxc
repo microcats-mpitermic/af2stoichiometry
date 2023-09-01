@@ -1,0 +1,119 @@
+# ChimeraX script: Plot couplings between pdhAB in multimeric pdhA1B2
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAC-SpoVA P>0.9 sorted by cn-score
+# UNSATISFIED_INTER - 106, P: 1.0, cn: 0.6181, dist: 52.1071
+distance #1/A:164@CA #1/B:23@CA color grey radius .33 symbol false dashes 0
+show #1/A:164,164 atoms
+show #1/B:23,23 atoms
+
+# UNSATISFIED_INTER - 149, P: 1.0, cn: 0.5358, dist: 22.5964
+distance #1/A:360@CA #1/B:280@CA color grey radius .33 symbol false dashes 0
+show #1/A:360,360 atoms
+show #1/B:280,280 atoms
+
+# UNSATISFIED_INTER - 153, P: 1.0, cn: 0.5314, dist: 51.5695
+distance #1/A:165@CA #1/B:51@CA color grey radius .33 symbol false dashes 0
+show #1/A:165,165 atoms
+show #1/B:51,51 atoms
+
+# UNSATISFIED_INTER - 190, P: 1.0, cn: 0.4888, dist: 43.935
+distance #1/A:352@CA #1/B:165@CA color grey radius .33 symbol false dashes 0
+show #1/A:352,352 atoms
+show #1/B:165,165 atoms
+
+# UNSATISFIED_INTER - 323, P: 1.0, cn: 0.3761, dist: 49.2013
+distance #1/A:164@CA #1/B:75@CA color grey radius .33 symbol false dashes 0
+show #1/A:164,164 atoms
+show #1/B:75,75 atoms
+
+# UNSATISFIED_INTER - 354, P: 1.0, cn: 0.3553, dist: 41.439
+distance #1/A:160@CA #1/B:73@CA color grey radius .33 symbol false dashes 0
+show #1/A:160,160 atoms
+show #1/B:73,73 atoms
+
+# UNSATISFIED_INTER - 428, P: 1.0, cn: 0.3209, dist: 44.4463
+distance #1/A:163@CA #1/B:75@CA color grey radius .33 symbol false dashes 0
+show #1/A:163,163 atoms
+show #1/B:75,75 atoms
+
+# UNSATISFIED_INTER - 609, P: 1.0, cn: 0.2516, dist: 38.1712
+distance #1/A:160@CA #1/B:70@CA color grey radius .33 symbol false dashes 0
+show #1/A:160,160 atoms
+show #1/B:70,70 atoms
+
+# UNSATISFIED_INTER - 622, P: 1.0, cn: 0.2452, dist: 46.4463
+distance #1/A:163@CA #1/B:51@CA color grey radius .33 symbol false dashes 0
+show #1/A:163,163 atoms
+show #1/B:51,51 atoms
+
+# UNSATISFIED_INTER - 664, P: 0.9999, cn: 0.2362, dist: 35.9321
+distance #1/A:141@CA #1/B:72@CA color grey radius .33 symbol false dashes 0
+show #1/A:141,141 atoms
+show #1/B:72,72 atoms
+
+# UNSATISFIED_INTER - 727, P: 0.9993, cn: 0.2215, dist: 38.241
+distance #1/A:157@CA #1/B:73@CA color grey radius .33 symbol false dashes 0
+show #1/A:157,157 atoms
+show #1/B:73,73 atoms
+
+# UNSATISFIED_INTER - 774, P: 0.9979, cn: 0.2112, dist: 40.813
+distance #1/A:352@CA #1/B:102@CA color grey radius .33 symbol false dashes 0
+show #1/A:352,352 atoms
+show #1/B:102,102 atoms
+
+# UNSATISFIED_INTER - 826, P: 0.9941, cn: 0.2013, dist: 32.3616
+distance #1/A:194@CA #1/B:54@CA color grey radius .33 symbol false dashes 0
+show #1/A:194,194 atoms
+show #1/B:54,54 atoms
+
+# UNSATISFIED_INTER - 886, P: 0.9852, cn: 0.192, dist: 44.1144
+distance #1/A:349@CA #1/B:106@CA color grey radius .33 symbol false dashes 0
+show #1/A:349,349 atoms
+show #1/B:106,106 atoms
+
+# UNSATISFIED_INTER - 888, P: 0.985, cn: 0.1918, dist: 34.9582
+distance #1/A:159@CA #1/B:54@CA color grey radius .33 symbol false dashes 0
+show #1/A:159,159 atoms
+show #1/B:54,54 atoms
+
+# UNSATISFIED_INTER - 889, P: 0.985, cn: 0.1918, dist: 45.5379
+distance #1/A:162@CA #1/B:51@CA color grey radius .33 symbol false dashes 0
+show #1/A:162,162 atoms
+show #1/B:51,51 atoms
+
+# UNSATISFIED_INTER - 924, P: 0.9776, cn: 0.1876, dist: 40.3645
+distance #1/A:352@CA #1/B:166@CA color grey radius .33 symbol false dashes 0
+show #1/A:352,352 atoms
+show #1/B:166,166 atoms
+
+# UNSATISFIED_INTER - 959, P: 0.9635, cn: 0.1823, dist: 9.8126
+distance #1/A:278@CA #1/B:125@CA color grey radius .33 symbol false dashes 0
+show #1/A:278,278 atoms
+show #1/B:125,125 atoms
+
+# UNSATISFIED_INTER - 1000, P: 0.9431, cn: 0.1772, dist: 31.1064
+distance #1/A:356@CA #1/B:245@CA color grey radius .33 symbol false dashes 0
+show #1/A:356,356 atoms
+show #1/B:245,245 atoms
+
+# UNSATISFIED_INTER - 1007, P: 0.9399, cn: 0.1766, dist: 40.7301
+distance #1/A:142@CA #1/B:105@CA color grey radius .33 symbol false dashes 0
+show #1/A:142,142 atoms
+show #1/B:105,105 atoms
+
+# UNSATISFIED_INTER - 1042, P: 0.9143, cn: 0.1723, dist: 20.6301
+distance #1/A:190@CA #1/B:66@CA color grey radius .33 symbol false dashes 0
+show #1/A:190,190 atoms
+show #1/B:66,66 atoms
+
+# UNSATISFIED_INTER - 1058, P: 0.9016, cn: 0.1706, dist: 14.2943
+distance #1/A:152@CA #1/B:93@CA color grey radius .33 symbol false dashes 0
+show #1/A:152,152 atoms
+show #1/B:93,93 atoms
+hide H

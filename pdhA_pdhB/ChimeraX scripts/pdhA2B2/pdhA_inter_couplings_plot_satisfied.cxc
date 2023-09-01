@@ -1,0 +1,55 @@
+# ChimeraX script: Plot inter couplings on pdhA in pdhA2B2
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# CONTACT_MULTIMER - 19, P: 1.0, cn: 1.0209, dist: 4.6765
+distance #1/A:195@CA #1/B:218@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:195@CA #1/A:218@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:195,218 atoms
+
+# CONTACT_MULTIMER - 243, P: 1.0, cn: 0.4389, dist: 2.7616
+distance #1/A:192@CA #1/B:218@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:192@CA #1/A:218@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:192,218 atoms
+
+# CONTACT_MULTIMER - 481, P: 1.0, cn: 0.2928, dist: 2.8093
+distance #1/A:219@CA #1/B:228@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:219@CA #1/A:228@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:219,228 atoms
+
+# CONTACT_MULTIMER - 554, P: 1.0, cn: 0.2675, dist: 2.3412
+distance #1/A:219@CA #1/B:230@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:219@CA #1/A:230@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:219,230 atoms
+
+# CONTACT_MULTIMER - 620, P: 1.0, cn: 0.2459, dist: 3.2732
+distance #1/A:193@CA #1/B:216@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:193@CA #1/A:216@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:193,216 atoms
+
+# CONTACT_MULTIMER - 720, P: 0.9994, cn: 0.2225, dist: 3.4973
+distance #1/A:219@CA #1/B:227@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:219@CA #1/A:227@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:219,227 atoms
+
+# CONTACT_MULTIMER - 768, P: 0.9981, cn: 0.2122, dist: 2.8841
+distance #1/A:193@CA #1/B:215@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:193@CA #1/A:215@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:193,215 atoms
+
+# CONTACT_MULTIMER - 893, P: 0.9843, cn: 0.1914, dist: 2.5756
+distance #1/A:218@CA #1/B:229@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:218@CA #1/A:229@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:218,229 atoms
+
+# CONTACT_MULTIMER - 994, P: 0.9477, cn: 0.1782, dist: 2.9244
+distance #1/A:193@CA #1/B:218@CA color #FC8C3B radius .33 symbol false dashes 0
+distance #1/B:193@CA #1/A:218@CA color #FC8C3B radius .33 symbol false dashes 0
+show #1/A,B:193,218 atoms
+
+hide H

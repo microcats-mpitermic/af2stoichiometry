@@ -1,0 +1,46 @@
+# ChimeraX script: Plot inter couplings on pdhB in pdhA3B3
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings P>0.9 sorted by cn-score
+# UNSATISFIED_MULTIMER - 715, P: 0.9995, cn: 0.2249, dist: 13.2463
+distance #1/D:97@CA #1/E:125@CA color grey radius .33 symbol false dashes 0
+distance #1/D:97@CA #1/F:125@CA color grey radius .33 symbol false dashes 0
+distance #1/E:97@CA #1/D:125@CA color grey radius .33 symbol false dashes 0
+distance #1/E:97@CA #1/F:125@CA color grey radius .33 symbol false dashes 0
+distance #1/F:97@CA #1/D:125@CA color grey radius .33 symbol false dashes 0
+distance #1/F:97@CA #1/E:125@CA color grey radius .33 symbol false dashes 0
+show #1/D,E,F:97,125 atoms
+
+# UNSATISFIED_MULTIMER - 808, P: 0.9959, cn: 0.2049, dist: 8.2632
+distance #1/D:132@CA #1/E:139@CA color grey radius .33 symbol false dashes 0
+distance #1/D:132@CA #1/F:139@CA color grey radius .33 symbol false dashes 0
+distance #1/E:132@CA #1/D:139@CA color grey radius .33 symbol false dashes 0
+distance #1/E:132@CA #1/F:139@CA color grey radius .33 symbol false dashes 0
+distance #1/F:132@CA #1/D:139@CA color grey radius .33 symbol false dashes 0
+distance #1/F:132@CA #1/E:139@CA color grey radius .33 symbol false dashes 0
+show #1/D,E,F:132,139 atoms
+
+# UNSATISFIED_MULTIMER - 822, P: 0.9944, cn: 0.2019, dist: 11.7782
+distance #1/D:82@CA #1/E:104@CA color grey radius .33 symbol false dashes 0
+distance #1/D:82@CA #1/F:104@CA color grey radius .33 symbol false dashes 0
+distance #1/E:82@CA #1/D:104@CA color grey radius .33 symbol false dashes 0
+distance #1/E:82@CA #1/F:104@CA color grey radius .33 symbol false dashes 0
+distance #1/F:82@CA #1/D:104@CA color grey radius .33 symbol false dashes 0
+distance #1/F:82@CA #1/E:104@CA color grey radius .33 symbol false dashes 0
+show #1/D,E,F:82,104 atoms
+
+# UNSATISFIED_MULTIMER - 986, P: 0.9514, cn: 0.179, dist: 8.5665
+distance #1/D:244@CA #1/E:266@CA color grey radius .33 symbol false dashes 0
+distance #1/D:244@CA #1/F:266@CA color grey radius .33 symbol false dashes 0
+distance #1/E:244@CA #1/D:266@CA color grey radius .33 symbol false dashes 0
+distance #1/E:244@CA #1/F:266@CA color grey radius .33 symbol false dashes 0
+distance #1/F:244@CA #1/D:266@CA color grey radius .33 symbol false dashes 0
+distance #1/F:244@CA #1/E:266@CA color grey radius .33 symbol false dashes 0
+show #1/D,E,F:244,266 atoms
+
+hide H

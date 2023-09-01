@@ -1,0 +1,44 @@
+# ChimeraX script: Plot free contacts on pdhAB in pdhA1B1
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings in SpoVAC P>0.9 sorted by cn-score
+# UNSATISFIED - 153, P: 1.0, cn: 0.5314, dist: 8.9324
+distance #1/A:165@CA #1/B:51@CA color grey radius .33 symbol false dashes 0
+show #1/A:165,165 atoms
+show #1/B:51,51 atoms
+
+# UNSATISFIED - 299, P: 1.0, cn: 0.3919, dist: 28.0659
+distance #1/A:350@CA #1/B:298@CA color grey radius .33 symbol false dashes 0
+show #1/A:350,350 atoms
+show #1/B:298,298 atoms
+
+# UNSATISFIED - 349, P: 1.0, cn: 0.3568, dist: 37.6418
+distance #1/A:215@CA #1/B:50@CA color grey radius .33 symbol false dashes 0
+show #1/A:215,215 atoms
+show #1/B:50,50 atoms
+
+# UNSATISFIED - 668, P: 0.9999, cn: 0.2354, dist: 24.4326
+distance #1/A:361@CA #1/B:296@CA color grey radius .33 symbol false dashes 0
+show #1/A:361,361 atoms
+show #1/B:296,296 atoms
+
+# UNSATISFIED - 865, P: 0.9883, cn: 0.1944, dist: 49.1534
+distance #1/A:341@CA #1/B:304@CA color grey radius .33 symbol false dashes 0
+show #1/A:341,341 atoms
+show #1/B:304,304 atoms
+
+# UNSATISFIED - 959, P: 0.9635, cn: 0.1823, dist: 39.2701
+distance #1/A:278@CA #1/B:125@CA color grey radius .33 symbol false dashes 0
+show #1/A:278,278 atoms
+show #1/B:125,125 atoms
+
+# UNSATISFIED - 993, P: 0.9481, cn: 0.1783, dist: 34.3082
+distance #1/A:346@CA #1/B:308@CA color grey radius .33 symbol false dashes 0
+show #1/A:346,346 atoms
+show #1/B:308,308 atoms
+hide H

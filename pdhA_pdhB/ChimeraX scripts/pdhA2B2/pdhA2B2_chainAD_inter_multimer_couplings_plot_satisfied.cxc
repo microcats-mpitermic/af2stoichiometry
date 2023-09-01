@@ -1,0 +1,34 @@
+# ChimeraX script: Plot couplings between pdhAB in multimeric pdhA2B2
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAC-SpoVA P>0.9 sorted by cn-score
+# CONTACT_INTER - 299, P: 1.0, cn: 0.3919, dist: 2.2693
+distance #1/A:350@CA #1/D:298@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:350,350 atoms
+show #1/D:298,298 atoms
+
+# CONTACT_INTER - 349, P: 1.0, cn: 0.3568, dist: 1.8517
+distance #1/A:215@CA #1/D:50@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:215,215 atoms
+show #1/D:50,50 atoms
+
+# CONTACT_INTER - 668, P: 0.9999, cn: 0.2354, dist: 1.8191
+distance #1/A:361@CA #1/D:296@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:361,361 atoms
+show #1/D:296,296 atoms
+
+# CONTACT_INTER - 865, P: 0.9883, cn: 0.1944, dist: 2.369
+distance #1/A:341@CA #1/D:304@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:341,341 atoms
+show #1/D:304,304 atoms
+
+# CONTACT_INTER - 993, P: 0.9481, cn: 0.1783, dist: 2.6053
+distance #1/A:346@CA #1/D:308@CA color #B1D77B radius .33 symbol false dashes 0
+show #1/A:346,346 atoms
+show #1/D:308,308 atoms
+hide H

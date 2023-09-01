@@ -1,0 +1,36 @@
+{
+    "iptm+ptm": {
+        "model_1_multimer_v2_pred_0": 0.6228711152388117,
+        "model_1_multimer_v2_pred_1": 0.6182281787209112,
+        "model_1_multimer_v2_pred_2": 0.6299920294067795,
+        "model_2_multimer_v2_pred_0": 0.6404712730124278,
+        "model_2_multimer_v2_pred_1": 0.5796800826299329,
+        "model_2_multimer_v2_pred_2": 0.6457518577602268,
+        "model_3_multimer_v2_pred_0": 0.5805108716227618,
+        "model_3_multimer_v2_pred_1": 0.5555697114899788,
+        "model_3_multimer_v2_pred_2": 0.5714084636622998,
+        "model_4_multimer_v2_pred_0": 0.5670127987559219,
+        "model_4_multimer_v2_pred_1": 0.5359005883407137,
+        "model_4_multimer_v2_pred_2": 0.5769784310364129,
+        "model_5_multimer_v2_pred_0": 0.5622311247918732,
+        "model_5_multimer_v2_pred_1": 0.5515878380101471,
+        "model_5_multimer_v2_pred_2": 0.5579557505445812
+    },
+    "order": [
+        "model_2_multimer_v2_pred_2",
+        "model_2_multimer_v2_pred_0",
+        "model_1_multimer_v2_pred_2",
+        "model_1_multimer_v2_pred_0",
+        "model_1_multimer_v2_pred_1",
+        "model_3_multimer_v2_pred_0",
+        "model_2_multimer_v2_pred_1",
+        "model_4_multimer_v2_pred_2",
+        "model_3_multimer_v2_pred_2",
+        "model_4_multimer_v2_pred_0",
+        "model_5_multimer_v2_pred_0",
+        "model_5_multimer_v2_pred_2",
+        "model_3_multimer_v2_pred_1",
+        "model_5_multimer_v2_pred_1",
+        "model_4_multimer_v2_pred_1"
+    ]
+}

@@ -1,0 +1,9 @@
+# ChimeraX script: Plot couplings between pdhAB in multimeric pdhA3B3
+show cartoons
+color bychain
+color byhetero
+style stick
+graphics silhouettes true color black
+lighting soft
+
+# Monomer couplings between SpoVAC-SpoVA P>0.9 sorted by cn-scorehide H

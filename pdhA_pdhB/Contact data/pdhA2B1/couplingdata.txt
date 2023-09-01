@@ -1,0 +1,20 @@
+> Coupling files for monomer A (intra_A[])
+pdhAB_CouplingScores_longrange.csv
+pdhA/P21881_b0.5/couplings/pdhA_b0.5_CouplingScores_longrange.csv
+pdhB/P21882_b0.5/couplings/pdhB_b0.5_CouplingScores_longrange.csv
+	> Coupling files for monomer B (intra_B[])
+pdhAB_CouplingScores_longrange.csv
+	> Coupling files for A/B, (inter[])
+pdhAB_CouplingScores_longrange.csv
+
+
+	> Distance matrices for monomer chains (monomer_distancemaps[])
+pdhA2B1.pdb/A
+pdhA2B1.pdb/B
+pdhA2B1.pdb/C
+	> Distance matrices for intramolecular distances in chains (intra_distancemaps[]
+pdhA2B1.pdb/AB
+pdhA2B1.pdb/BA
+	> Distance matrices for intermolecular distances in chains (inter_distancemaps[])
+pdhA2B1.pdb/AC
+pdhA2B1.pdb/BC
